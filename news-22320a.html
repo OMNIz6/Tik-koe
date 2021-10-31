@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Australia to close pubs, cafes and places of worship</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-22320a.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">22, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b></b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Pubs, clubs, gyms, cinemas and places of worship will be shut from midday on Monday, while restaurants and cafes will have to switch to takeaway only.</p>
+				<br>
+				<p>Prime Minister Scott Morrison announced the restrictions after a national cabinet meeting.</p>
+				<br>
+				<p>The number of cases in Australia has risen sharply in recent days, reaching 1,315.</p>
+				<br>
+				<p>New South Wales (NSW), home to Sydney, is the worst-affected state with 533 confirmed cases. Victoria, of which Melbourne is the capital, has 296 cases, while Queensland has 259.</p>
+				<br>
+				<p>The new restrictions will see many businesses close but supermarkets, petrol stations, pharmacies and home delivery services will continue running.</p>
+				<br>
+				<p>The prime minister said he wanted to keep schools open but parents would be able to keep their children at home if they wished to do so.</p>
+				<br>
+				<p>"I don't want to see our children lose an entire year of their education," he said.</p>
+				<br>
+				<p>Some states, including Victoria, have signalled that they want to close schools.</p>
+				<br>
+				<p>Seven people have died across Australia so far from Covid-19.</p>
+				<br>
+				<p>The new measures come after large crowds gathered on Sydney's beaches including Bondi on Saturday, flouting social distancing advice.</p>
+				<br>
+				<p>Mr Morrison said that the federal and state governments had decided to act because Australians were not obeying guidelines.</p>
+				<br>
+				<p>But he added: "We are not putting in place lockdowns that put people in and confine them to their homes.</p>
+				<br>
+				<p>"That is not a measure that has been contemplated at this point."</p>
+				<br>
+				<p>Chief Medical Officer Brendan Murphy said people, especially the young, had to realise that they needed to live "very differently" and stop going out in order to control the virus.</p>
+				<br>
+				<p>In other developments:</p>
+				<br>
+				<p>
+					<ul>
+						<li>The prime minister announced new stimulus measures to boost the economy</li>
+						<li>South Australia, Western Australia and the Northern Territory will close their borders from Tuesday. Under the new rules, anyone arriving will be forced to self-isolate for 14 days</li>
+						<li>Tasmania, an island state, has already imposed similar travel restrictions</li>
+						<li>The Australian Football League suspended its 2020 season, with no fixtures until at least 31 May. The women's league has also been halted</li>
+						<li>In contrast, the National Rugby League says it will carry on with matches as planned</li>
+					</ul>
+				</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

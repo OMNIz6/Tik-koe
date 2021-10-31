@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>China Reports 72 New COVID-19 Cases; Flare-Up Continues in North</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-22420h.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">22, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Authorities in the northeastern Chinese city of Harbin further tightened restrictions on inbound traffic and private gatherings on Wednesday to contain its second wave of coronavirus infections blamed on imported cases.</p>
+				<br>
+				<p>Harbin, the capital of Heilongjiang Province with a population of some 10 million, has banned all nonresidents and their vehicles from entering residential compounds, according to local authorities.</p>
+				<br>
+				<p>In order to go in and out of their guarded residential areas, locals must have a guard scan a QR code on their smartphone, with the color green indicating a COVID-19 risk-free status, while also wearing a mask, the official notice said.</p>
+				<br>
+				<p>Heilongjiang, a northeastern province on the border with Russia, has become the epicenter of the second wave of infections in China, confirming 57 additional symptomatic COVID-19 patients in the past 10 days.</p>
+				<br>
+				<p>Earlier this month, China temporarily closed all land border crossings with Russia to curb the spread of the virus.</p>
+				<br>
+				<p>At around the same time, Harbin and the border city of Suifenhe also started requiring all international arrivals to undergo four weeks of isolation as well as testing.</p>
+				<br>
+				<p>But Harbin, which still receives flights from Russia, reported seven new locally transmitted cases on Wednesday, bringing the current number of COVID-19 cases in the city to 75, including 23 cases with no symptoms. Around 1,400 people are currently under medical observation, according to the city.</p>
+				<br>
+				<p>Also, on Wednesday, the National Health Commission reported 72 new coronavirus infections on the mainland, 30 of which involved individuals displaying symptoms with the remainder showing none.</p>
+				<br>
+				<p>Mainland China continues to detect a notable portion of its new infections in Chinese nationals returning from overseas. So-called imported cases accounted for 30 of the new infections reported on Wednesday, including 23 with symptoms.</p>
+				<br>
+				<p>With no new deaths recorded in the past week, the death toll on the mainland stands at 4,632, while the overall tally of confirmed cases on the mainland has now reached 82,788, the commission said.</p>
+				<br>
+				<p>So far, roughly 93 percent of the country's total COVID-19 patients have recovered from the disease.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Indian Govt Shuts Key Border Trade Gate with Myanmar Over Coronavirus Fears</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-10320c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">10, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The government of India’s Manipur State has shut down the Tamu-Moreh border gates, a key corridor for border trade between Myanmar and India, indefinitely over concerns about the spread of coronavirus, according to the Security and Border Affairs Ministry for Sagaing Region, where Tamu District is located.</p>
+				<br>
+				<p>Colonel Than Htun Aung, the Sagaing security and border affair minister, told The Irrawaddy about the closure on Tuesday, though his ministry was still waiting to receive the official letter from the Manipur Government.</p>
+				<br>
+				<p>An official from Tamu District said the Manipur government closed the gates in order to prevent coronavirus from spreading.</p>
+				<br>
+				<p>All trade across the border had stopped on Tuesday according to U Tin Shwe, vice chairman of the Kalay-Tamu Border Trade Chamber of Commerce.</p>
+				<br>
+				<p>“It doesn’t matter for trade if they close the gates for a while. However, traders from both sides will face hardships if the closures are long-term,” said U Tin Shwe.</p>
+				<br>
+				<p>The Tamu-Moreh borders gates are mainly used to export products from Myanmar—chiefly betel nuts, beans and other food.</p>
+				<br>
+				<p>Myanmar businesses export over US$30 million of products across the Tamu-Moreh border gates every four months, according to the Myanmar Ministry of Commerce.</p>
+				<br>
+				<p>Myanmar has no confirmed cases of coronavirus but 11 suspected patients have been treated at hospitals, according to a Myanmar Ministry of Sport and Health update on Monday.</p>
+				<br>
+				<p>According to the World Health Organization (WHO), India has confirmed at least 43 cases of coronavirus.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

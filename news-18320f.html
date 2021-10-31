@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Australia bans 'non-essential' gatherings of over 100 people</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-18320f.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">18, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b></b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Prime Minister Scott Morrison announced sweeping new measures on Wednesday, including discouraging travel overseas.</p>
+				<br>
+				<p>But he said schools, public transport and public squares would remain open, avoiding the kind of shutdown seen in some nations.</p>
+				<br>
+				<p>Australia has recorded over 450 positive tests and five deaths, with a sharp rise in cases in the past week.</p>
+				<br>
+				<p>However, the numbers remain lower than in Europe and North America.</p>
+				<br>
+				<p>Following a meeting of cabinet officials on Tuesday night, Mr Morrison said the government had declared a "biosecurity emergency". He described it as a "one in a hundred-year event" but urged the public to remain calm.</p>
+				<br>
+				<p>"We haven't seen this sort of thing in Australia since the end of the First World War. But together, we are up to this challenge," he said.</p>
+				<br>
+				<p>As part of the new restrictions, workplaces, prisons and other "essential" places will still operate as normal.</p>
+				<br>
+				<p>However, other events such as religious gatherings of more than 100 people and concerts in small venues will be prohibited.</p>
+				<br>
+				<p>Mr Morrison said Australians should not travel abroad anywhere - the first time such advice had been given in the nation's history.</p>
+				<br>
+				<p>"The biggest risk we have had and the biggest incidents of cases we have had... has been from Australians returning from overseas," he said.</p>
+				<br>
+				<p>On Sunday, Canberra ordered 14-day self-isolation for anyone arriving in the country. Australians currently abroad have been urged to return.</p>
+				<br>
+				<p><b>Keep away from each other'</b></p>
+				<br>
+				<p>The doubling of Australian case numbers in the past week has sparked public concern, increasing debate about whether schools and other places should shut.</p>
+				<br>
+				<p>Many office workers have also begun working from home as Australians practice social distancing measures.</p>
+				<br>
+				<p>While public health officials have encouraged this, they say they are not looking yet to implement more stringent lockdowns - predicting that the crisis could last about six months.</p>
+				<br>
+				<p>"There is no way that we can lock down society and make everyone stay home and then in a month's time, undo that, because the virus will just flare up again without any real long-term benefit," Australia's chief medical officer, Dr Brendan Murphy, told reporters.</p>
+				<br>
+				<p>Instead, he urged Australians to exercise caution in social interactions: "Keep away from each other where possible."</p>
+				<br>
+				<p>Dr Murphy also said the recent escalation in cases was "obviously concerning" but noted they were "largely still fuelled by imported cases".</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

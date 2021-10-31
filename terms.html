@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- terms -->
+	<div id="terms" class="std-section">
+		<h4><strong>We Journalism Guidelines for Staff Writers</strong></h4>
+		<br>
+		<p><strong>Introduction </strong></p>
+		<br>
+		<p>Since 2007, the we has followed a formal Code of Ethics &#8211; in the aim to ensure professional and ethical conduct from all of our staff reporters and to maintain an exemplary level of accurate reporting for our readers. Our code provides guidelines for we staff writers, has been developed from 17 years of experience as an exiled media agency, and draws on internationally recognized journalism ethics and media standards. These guidelines are updated and modified regularly as <em>We</em> grows and changes.</p>
+		<p>The code – the we Journalism Guidelines – applies to all members of the editorial department, including regular contributors and those working on freelance assignments. This includes editors, writers, photographers, copy-editors, outside contributors, reporters, correspondents, designers, cartoonists, artists and researchers.</p>
+		<p>We ask every staff member to read this document carefully and thoroughly. If we find staff members intentionally violating these guidelines, they will face disciplinary action which may include a serious warning and/or dismissal from association with <em>We</em>.</p>
+		<br>
+		<p><strong>Our Loyalty, Honesty and Code of Conduct</strong></p>
+		<br>
+		<p>Our loyalty goes to our readers and the public.</p>
+		<p><em>We</em> protects its integrity and credibility and encourages its staff members to adhere to professionalism and to high standards of journalism and ethics.</p>
+		<p><strong>Facts</strong></p>
+		<br>
+		<p><em>We</em> provides accurate and verified facts and information to readers. We will not tolerate staff members who plagiarize or provide false information and news for <em>We</em> publications.</p>
+		<p>Staff members must be honest when they use news, facts and information from other publications and must attribute them correctly.</p>
+		<p>We must be honest with our readers. If we publish incorrect news and information, we must immediately acknowledge our mistake and make a correction. We will publish all verifiable corrections in the corrections section on the Tik-koe<sup>19</sup> Burmese and English websites.</p>
+		<br>
+		<p><strong>Sources</strong></p>
+		<br>
+		<p>Staff members need to declare or disclose their identity to sources prior to seeking information or interviews. They may not pose as police, businessmen, NGOs, activists or anyone else when they are working as journalists.</p>
+		<p>Exceptions to this rule, where staff members may choose not to announce or disclose their identity, can occur under the following circumstances: when visiting countries, which usually do not issue journalist visas to reporters and journalists; when investigating on-going scandals related to business or state-secret military stories; or when seeking information normally available to the public.</p>
+		<p>Staff members must inform news sources if they are recording conversations or interviews while on the phone or in other situations. Staff members should keep a record of interviews in their computer or in a recording device for a minimum of one month in case of clarification or correction.</p>
+		<p>Staff members need to cultivate informed sources, but must avoid becoming personally, romantically or financially involved with the sources of the news they are covering. In cases of close involvement with the source, the potential for conflict of interest must be disclosed and where practical, the staff member may be excluded from certain coverage. Staff members need to be wary of sources who are eager to win our goodwill for reasons of their own.</p>
+		<p>Staff members must abide by the law while pursuing news and may not break into buildings, houses, apartments or offices. They may not purloin data, documents, fax messages and e-mails, tap telephones or invade computer files.</p>
+		<br>
+		<p><strong>Anonymous Sources </strong></p>
+		<br>
+		<p>In routine interviewing, our reporters do not automatically offer anonymity to sources and we do not use anonymous sourcing when sources we can name are readily available.</p>
+		<p>Exceptions will occur for highly sensitive stories, where sources may face legal threat, loss of livelihood, or a threat to personal safety and security, as a result of speaking to <em>We</em>. This situation is common for sources from inside Burma.</p>
+		<p>Due to the climate of fear in Burma, the enforced media censorship, the lack of freedom of expression and the repressive nature of the Burmese government regime &#8211; many of our inside sources require anonymity for their personal security. This includes citizens, public officials, government and non-government personnel, diplomats, politicians and military informants who otherwise would not be able to share information with <em>We</em>.</p>
+		<p>When using anonymous sources – staff members must follow a rigorous process to confirm the source and content reliability, motivation and credibility as far as possible, without jeopardising source confidentiality.</p>
+		<p>Whenever possible, in writing about documents that we have obtained &#8211; staff should specify how we received them, except in cases where the documents are obtained from sources which require anonymity for the reasons noted above.</p>
+		<p>&nbsp;</p>
+		<p>Travel, Gifts and Free Accommodation</p>
+		<br>
+		<p><strong>Travel</strong></p>
+		<br>
+		<p>All staff must comply with <em>We</em> Travel Policy, which outlines specific procedures for travel-related activities.</p>
+		<p><em>We</em> provides travel expenses when staff members are assigned to cover news in the region, in border areas or inside Burma. These expenses are calculated according to a set rate for reasonable accommodation and daily allowances for staff as outlined in <em>We</em> Travel Policy.</p>
+		<p>Staff members are not permitted to bring along spouses or family members during work travel trips. If they wish to bring family members, they must inform the editors and the supervisor.</p>
+		<br>
+		<p><strong>Gifts</strong></p>
+		<br>
+		<p>Staff members are not permitted to accept free tickets, lodging, discounts, and gifts from news sources or in relation to events we cover. Staff members who review art exhibitions, performances, books, automobiles, films and sports events however may accept tickets customarily made available. A moderate lunch or dinner or drinks served by news sources is permitted, as long as the cost does not exceed 20 USD. Gifts should be returned with a polite explanation. If staff members have doubts about invitations by news sources, please consult with the editor and managing editor.</p>
+		<p>Staff members may not accept money, gifts, or news tips from other competitors and publications. Staff members may not accept anything that could be construed as payment for favourable coverage or as an inducement to alter or forgo unfavorable coverage.</p>
+		<br>
+		<p><strong> </strong><strong>Conferences</strong></p>
+		<br>
+		<p>We encourage staff members to attend conferences or meetings where they can gather information or expand their networks and news sources. However, staff members should consider carefully when they are invited to appear before or address groups that might have a conflict of interest with <em>We</em>. Before accepting any invitation, they must consult with the managing editor, editor and supervisor. <em>We</em> will decide whether the appearance is appropriate. If attendance at such meetings is approved, staff members may accept speaking fees, honoraria, reimbursements and free transportation.</p>
+		<p>They must immediately file reports to the managing editor or editor after their trip.</p>
+		<br>
+		<p><strong>Affiliations</strong></p>
+		<br>
+		<p>Staff members must not be affiliated with any political or government agencies or international organizations. Staff members must disclose any close association to social, religious or sports organizations. Staff members who are associated with tour agencies, restaurants, property projects and publications should disclose their associations to the editorial management.</p>
+		<p><em>We</em> encourages staff members to compete with other competitors openly and honestly. Other competitors include newspapers, radio and television stations, and web sites.</p>
+		<p>Staff member names are not permitted to appear in the masthead of other publications except social, alumni or club newsletters. <em>We</em> encourages staff members to collaborate with other media organizations and competitors in the area of preserving press freedom and media independence.</p>
+		<p>Staff members are not permitted to perform public relations work or work for other individuals or organizations dealing with news media. They may not advise, edit or write materials for candidates or politicians who are running for public office. Staff members may not provide financial advice to companies or offer consultancy to international organizations. Staff members should not serve as ghostwriters.</p>
+		<p>Staff members who have plans to write books and want to appear at a public function must give prior notice to the supervisor, editor and managing editor.</p>
+		<p>Staff members are permitted to seek or accept honorary degrees, medals and other awards from colleges, universities and other educational institutions. However, before applying for journalism awards, they must consult with the managing editor, editor and supervisor.</p>
+		<p>Staff members can participate in public functions, religious and community affairs, and vote in elections, but they should never invoke We’s name in private activities. Staff members may not do anything that damages the reputation of <em>We</em>’s integrity, professional journalism and code of ethics.</p>
+		<p>Staff members are not permitted to participate in support of rallies and political campaigns; to sign ads taking positions on public issues or lend their names to campaigns, benefit dinners or similar events as this may raise doubts about <em>We</em>’s ability to cover news from an objective point of view. Opinion writers and editorial page editors have more freedom or leeway to express their opinion during public functions than staff members.</p>
+		<p>Staff members may not solicit funds or money for political, social, religious, educational, philanthropic or other causes.</p>
+		<br>
+		<p><strong>Relations with the Marketing and Administration Department</strong></p>
+		<br>
+		<p><em>We</em> is aware that conflict of interest can create serious problems in the editorial department. Therefore, the magazine will do whatever it can to prevent this problem in the office.</p>
+		<br>
+		<p><strong>Marketing</strong></p>
+		<br>
+		<p>The editorial department and marketing department are separate &#8211; the editorial department will not accept any influence from the marketing department. Staff members of the editorial department should maintain their disinterest in participating in the marketing team’s marketing plans. However, the editorial department and marketing team may confer on the layout, design and configuration of the publication and website or timing of special sections.</p>
+		<p>Staff members may participate in events promoted by the marketing team if authorized by the managing editor, editor and supervisor. However, editorial staff members are not salespersons and are not required to sell pages or give sales pitches.</p>
+		<p><em>We</em> Senior Management Team may hold regular meetings, exchange information and discuss the content of advertising with the marketing team manager.</p>
+		<br>
+		<p><strong>Administration</strong></p>
+		<br>
+		<p>The editorial department receives support from administration staff when organizing trips, meetings, office stationery and equipment, and payment for travel allowances. The editorial department will not accept any influence on editorial matters from the administration department.</p>
+		<p>The office manager, accountant, office secretary and salespersons have no influence on editorial policies. However, the general office manager, who is attached to the administration department and is in charge of human resources, has the duty to oversee office attendance and staff performance and enforce office rules and regulations.</p>
+		<p>The general office manager may hold meetings with the editor and managing editor to evaluate the staff members’ performance. The general office manager may recommend that the editor and managing editor take appropriate actions regarding staff members who violate office regulations, policies and guidelines.</p>
+		<p>The editorial management staff may confer with the general office manager when or if they need to hire new staff members. The general office manager may take part in staff interviews.</p>
+		<br>
+		<p><strong>Identification Cards and Public Record</strong></p>
+		<br>
+		<p>Staff members may not use <em>We</em>’s identification cards for purposes not related to <em>We</em>’s employment. Cards may not be used to obtain special treatment, advantages from companies, politicians, opposition parties, governments, or any other organization.</p>
+		<p>Staff members are not permitted to use <em>the we</em>’s letterhead, business cards, forms or other materials for any purpose except the business of the publication.</p>
+		<p>Staff members must not disclose confidential information regarding We publication, its operations, content of upcoming publications, or its policies and plans to outsiders and competitors.</p>
+		<p>Staff members are not permitted to speak on behalf of <em>the we</em> unless they have been authorized by editors and managing editors. If staff members are approached by other media organizations to discuss <em>We</em>’s policies and content, they must immediately inform the editor or managing editor for proper instructions.</p>
+		<p>If staff members receive threats or complaints from readers or have legal action taken against them, they must immediately inform the supervisor, editor and managing editor.</p>
+		<p>Any staff members intending to write fiction, poems, or songs must inform the supervisor, editor and managing editor.</p>
+		<p>If staff members are approached by agents, publishers, producers and others seeking rights to <em>We</em>’s materials, they must immediately forward this information to the supervisor, editor and managing editor.</p>
+		<p>Staff members are not permitted to turn over interview notes, information, documents or other working materials to any third party or competitor.</p>
+		<p>Staff members are not permitted to write editorials or opinion pieces except on rare occasions. Only masthead editors, managing editors and authorized editorial writers are permitted to write opinions on the editorial page.</p>
+		<br>
+		<p><strong>Working Outside of Office</strong></p>
+		<br>
+		<p>Senior staff members and editors are not permitted to work for any publications, media groups or commercial businesses except on rare occasions.</p>
+		<p>Staff members can accept freelance assignments that do not directly compete with <em>We</em>’s content and coverage. Normally, working for competitors will not be permitted. Permission to work for freelance assignments needs to be discussed with the editor and managing editor.</p>
+		<p>Freelancing even under a pseudonym can create conflict of interest and can damage the image of <em>We</em>. Thus, staff members need to inform the editor and managing editor before they accept any freelance work from outside. Occasional freelance work is not expected to pose a risk.</p>
+		<p>Staff members who regularly work for radio, television stations and other websites might create conflict of interest with <em>We</em>’s assignments and responsibilities at the office. However, they may accept freelance assignments which are not in conflict with <em>We</em>’s assignments and responsibilities.</p>
+		<p>Staff members, particularly editors, are permitted (by invitation) to write for regionally and internationally recognized publications, such as The New York Times, Washington Post, Bangkok Post, and Time, to promote the name of <em>We</em>. This must be only on an occasional basis.</p>
+		<p>Editorial writers and editors of <em>We</em> can contribute similar articles first published in <em>We</em> to regional and international publications (by invitation only). However, similar articles can only appear 7 days after <em>the we</em> has published them in its magazine or website. Attribution must be given to <em>We</em>, with the web site address attached:</p>
+		<p><em>We</em>’s original materials, news and commentary articles are permitted to appear or be reproduced in regional and international publications. However, other publications must first seek approval or permission from <em>We</em>.</p>
+		<p>From time to time <em>the we</em> may make special content-sharing agreements with other media agencies, organizations or individuals, where contract agreements may differ from this policy for specific projects.</p>
+		<p>Staff members are allowed to participate in radio, television and web site interviews or discussions, whether paid or unpaid, that deal directly with articles and news they have written or subjects they often cover and in which they have expertise. However, they must inform the supervisor, editor and managing editor about any such plans. They must be careful of use of their names and appearance as they are still associated with <em>We</em>. In addition, they are not spokespersons of <em>the we</em> and are thus not entitled to speak on behalf of <em>We</em> and its policies. <em>We</em>’s authorized spokespersons are the founder, the editor and the managing editor.</p>
+		<br>
+		<p><strong>Conflict of Interest</strong></p>
+		<br>
+		<p>Conflicts of interest may arise in many areas.</p>
+		<p><em>We</em> is aware of potential conflicts of interest as the we was founded by journalists who are committed to change in Burma. We has recruited staff members of various ethnicities, who have had political associations.</p>
+		<p><em>We</em> realizes that there may be tensions between journalists&#8217; professional obligations to readers and their relationships with news sources, campaign groups, opposition groups, governments, officials, politicians, advertisers, or competitors; with one another; or with the company or one of its units.</p>
+		<p>Any staff members who have conflicts of interest or threaten the reputation and integrity of the magazine may face new assignments.</p>
+		<p>Staff members, editors, and managing editors must be sensitive to possible conflicts of interest related to business interests and investments of their spouses and family members. Therefore, staff members must disclose potential conflicts of business interest, and activities of spouses, friends and relatives that are likely to pose a threat to we’s integrity and reputation.</p>
+		<p>Editors who play a crucial role in deciding the content of business, financial and political news should not own stock in any company except We. Editors must disclose their business involvement and political background.</p>
+		<p>Staff members and critics working in arts, culture and book reviews and society pages must guard against favoritism. They have a special duty to guard against conflicts of interest or the appearance of such conflict. They must not help to promote books, films, restaurants, property, arts, literature and music for marketing in <em>We</em> publications.</p>
+		<p>We encourage staff members to disclose any potential conflict or problems in a timely fashion so as to prevent serious problems and embarrassment for staff members and <em>We</em>.</p>
+		<br>
+		<p><strong> </strong><strong>FUND RAISING POLICY</strong></p>
+		<br>
+		<p><em>We</em> generates a small amount of income through fundraising activities such as sales, subscriptions, merchandising and marketing, however for the most part is reliant on funding and support from donors – both individuals and organizations.</p>
+		<p>We are committed to the highest ethical standards in our methods of seeking funds, our record keeping and our engagement with donors. Our fundraising activities are conducted in a responsible manner, consistent with legal requirements. In raising funds, IPG will accurately describe our activities and needs. Our policies and practices will ensure that all donations are used to support the mission, aims and objectives of <em>We</em>.</p>
+		<p>The founder and director of <em>We</em> is the primary fund raiser, so he must maintain independence and integrity when relating to sponsors, donors and international foundations during meetings or when seeking funding.</p>
+		<p>He must be firm in dealing with potential donors who may have a hidden agenda in providing assistance and want to influence editorial policies.</p>
+		<p>He must be firm in dealing with the marketing department and business companies who may have a hidden agenda in buying pages and shares and are seeking to have political or commercial influence on the editorial policies and the magazine.</p>
+		<p>The general office manager, office manager, and managing editor can assist the fundraiser to develop the budget, to organize meetings with sponsors or donors, and to comprehend the publication’s financial situation and the requirements of each funding organization.</p>
+		<p>The fund raiser has the right to authorize the office manager, project coordinator and managing editor to hold meetings with regular sponsors and potential donors. They must immediately inform the Senior Management Team if they have doubts regarding any grants, proposals, financial offerings, or assistance to <em>We</em> that might damage the image and reputation of the publication. The fund raiser in <em>We</em> office must regularly inform the Senior Management Team about relations with grants donors.</p>
+		<br>
+		<p><strong>Donor Entitlements</strong></p>
+		<br>
+		<ul>
+		<li>All donors (individuals, corporations, government agencies and foundations) are entitled to promptly receive an official receipt from <em>We</em> for the amount of the donation.</li>
+		<li>All fundraising by <em>We</em> will disclose the organization’s full name and the purpose for which funds are requested.</li>
+		<li> Donors have the right to be informed about the causes for which we are fundraising; to be informed about how their donation is being used; and to be informed of the status of fundraising activity.</li>
+		<li> Donors’ privacy will be respected; any donor records that are maintained by <em>We</em> will be kept confidential to the greatest extent possible.  Donors have the right to anonymity except in cases where the size of their donation is such that it might be relevant to our independence.</li>
+		</ul>
+		<p>IPG will respond promptly to a complaint by a donor or prospective donor about any matter.</p>
+		<br>
+		<p><strong>Editorial Independence</strong></p>
+		<br>
+		<p><em>We</em> seeks to minimize the possibility and appearance of inappropriate influence from outside parties, in the activities of the organization &#8211; particularly activities related to independent media production.</p>
+		<p>In this context, we reserve the right to impose limitations on the sources of our funding and embrace transparency, independence and sustainability when deciding whether to accept funds from outside parties.</p>
+		<p>Any uncertainty over a potential donor or the funding arrangement will be referred to the Director and Senior Management Team members.</p>
+		<p>In all cases, <em>We</em> will strive to be both editorially independent and financially viable. Acceptance of donor funding will remain distinct from media production activities.</p>
+		<p>In no cases will donors, supporters or other stakeholders have the right to influence, dictate or otherwise be involved with editorial content or media production. This is vital to maintain and ensure editorial independence within <em>We</em>.</p>
+		<br>
+		<p><strong>COMPLAINTS POLICY</strong></p>
+		<br>
+		<p><em>We</em> has implemented a range of mechanisms to ensure transparency and accountability to our readers, donors, supporters and the general public.</p>
+		<p><em>We</em> reserves the right for editorial independence and autonomy and will in no circumstances submit to censure or editorial interference. We are however committed to accurate, factual and balanced reporting and professional, ethical behavior from all of our staff. As independent media, we aspire to the values of open and public debate, aiming to cover diverse opinion and commentary on the issues we report on.</p>
+		<p>In line with these values we offer the following avenues to voice any concerns that may arise regarding We editorial content or practice.</p>
+		<br>
+		<p><strong>Editorial Content</strong></p>
+		<br>
+		<p>If readers have a complaint or issue regarding editorial content there are three options:</p>
+		<p>If you disagree with the accuracy or content in a particular article or media product:</p>
+		<ul>
+		<li><a href="#">Email the editor </a>with information identifying the alleged mistakes and a list of the corrections requested. The editor will investigate the complaint as soon as possible and if verified – will publish a correction on the Corrections (<a href="#">http://www.we.com/article.php?art_id=19288</a>) section of the website as soon as possible after verification.</li>
+		<li>Submit your comments and suggestions online in the comment boxes located at the end of designated articles. The comments boxes are moderated by we editors according to <em>We</em> <a href="#comment">Guidelines for Reader Comment</a></li>
+		<li><a href="#">Write to</a>or<a href="#"> email the editor</a> with a Letter to the Editor outlining your concerns, complaints or issues. The Letters to the Editor are moderated by we editors according to <em>We</em> <a href="#">Guidelines for Reader Comment</a></li>
+		</ul>
+		<br>
+		<p><strong>Editorial Practice and Conduct </strong></p>
+		<br>
+		<p>If there is a complaint or issue regarding the conduct of we staff, possible conflict of interest, fundraising activities or privacy concerns, the following procedures can be taken:</p>
+		<ul>
+		<li>Contact <em>We</em> by phone  (+95 1 388521) or <a href="#">email </a>to promptly report the facts and the basis of the complaint.</li>
+		<li>Upon receiving a complaint, the we will promptly conduct an investigation of the complaint.</li>
+		<li>The investigation generally will include: discussion with the complainant if necessary, discussion with the party against whom allegations have been made, and witnesses, if appropriate.</li>
+		<li>If the investigation finds that an employee has engaged in conduct or actions which violate we policy, we will take immediate and appropriate action up to and including termination of employment.</li>
+		<li>In determining the appropriate response &#8211; <em>We</em> may take into consideration the degree of participation in and/or knowledge of the violation, whether the conduct could otherwise be explained or justified, and the type of violation and/or the consequences.</li>
+		<li><em>We</em> will keep a record of the actions taken and outcomes of the investigation process and provide a summary of this process to the complainant &#8211; as soon as possible after completion. Where required a written report on the complaints outcome will be supplied.</li>
+		</ul>
+		<br>
+		<p><a name="comment"></a><strong>we Guidelines for Reader Comment: </strong></p>
+		<br>
+		<p><a href="#">Letters to The Editor</a>: should be written as soon as possible after publication of the article referred to, in order to remain current and relevant, and should include the writer’s name, address and contact details.</p>
+		<p><em>We</em> aims to publish all Letters to the Editor in the Letters section online as soon as possible after receiving them. We reserve the right not to publish letters which are libellous; include personal attacks; threaten anyone; use bad language; are anonymous; or may lead to legal threat/vulnerability of We organization.</p>
+		<p>Online Comments: <em>We</em> is delighted to invite readers to participate in online debate. We would like to hear reader’s opinions about the articles we publish on our website.</p>
+		<p>Comments will be edited for clarity and to fit <em>We</em>’s style guide (including the use of US English).  Comments will be deleted if they are: libellous; include personal attacks; threaten anyone; use bad language; or are anonymous.</p>
+		<p>Otherwise, readers are encouraged to exercise their freedom of expression.</p>
+	</div>
+	<!-- terms end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

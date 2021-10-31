@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>South Korea confirms 145 new virus cases, total tops 6,000</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-5320b.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">5, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWS </b></span></div>
+			</div>
+			<div class="news-details">
+				<p>South Korea confirmed another 467 cases of coronavirus infection on Thursday, bringing the tally to over 6,000.</p>
+				<br>
+				<p>According to the earlier report from the health authorities, 4,326 cases occurred in Daegu, the worst-hit city in the country's southeast, with a shortage in hospital beds there becoming increasingly dire.</p>
+				<br>
+				<p>The death toll from the pneumonia-causing virus has risen to 37, up four from Wednesday, according to a Health and Welfare Ministry.</p>
+				<br>
+				<p>Daegu, the country's fourth-largest city, is home to a branch of a minor Christian sect where mass transmissions are believed to have occurred among group members.</p>
+				<br>
+				<p>Over 2,000 people with the virus are waiting to be admitted to hospitals, according to local media. Of those who have died, five did so while in self-quarantine.</p>
+				<br>
+				<p>The government has turned various facilities into temporary treatment centers to care for those with symptoms, but the spread of the virus has outpaced such efforts.</p>
+				<br>
+				<p>Also amid the surging demand for face masks, the government decided to ban exports of domestically produced ones starting Friday. It earlier had set a ceiling of 10 percent of daily output for exports.</p>
+				<br>
+				<p>Infections are also increasing in other metropolitan areas, with the number of cases in the capital Seoul reaching 103.</p>
+				<br>
+				<p>U.S. Forces Korea said Thursday that two dependents of service members stationed in Daegu have tested positive for the pneumonia-causing virus, making them the fifth and sixth people linked to U.S. military members based in South Korea to be confirmed as infected.</p>
+				<br>
+				<p>According to health authorities, 88 patients have been released after making a full recovery, while more than 21,000 people are still being tested.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Canadian care homes become coronavirus hotspots</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-13420b.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">13, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Nearly half of the known coronavirus deaths in Canada are linked to outbreaks in elderly care facilities, public health officials say.</p>
+				<br>
+				<p>The disclosure comes as care homes across the country have come under scrutiny.</p>
+				<br>
+				<p>Over the weekend, a care home in the province of Quebec, where 31 people have died, was placed under investigation.</p>
+				<br>
+				<p>There are about 24,804 cases of the virus in Canada and 734 deaths to date.</p>
+				<br>
+				<p>Long-term care facilities are "driving the severe outcomes in Canada", said the federal chief public health officer Theresa Tam on Monday.</p>
+				<br>
+				<p>Dr Tam said all jurisdictions are trying to deal with outbreaks in both private and public seniors' facilities.</p>
+				<br>
+				<p>Where officials have data on whether a Covid-19 victim was in a care facility or seniors' residence, she said, "close to half" were linked to those establishments.</p>
+				<br>
+				<p><b>Quebec inquiry opened</b></p>
+				<br>
+				<p>On Sunday, the Quebec coroner's office launched an inquiry into deaths at private residential long-term care facility Residence Herron. Public health and police investigations are also underway.</p>
+				<br>
+				<p>Thirty-one of the home's residents have died since 13 March - at least five from the virus. The cause of death in the other 26 cases has not been established.</p>
+				<br>
+				<p>The home in Dorval, a Montreal suburb, has 150 residents. Authorities have stepped in to care for the residents.</p>
+				<br>
+				<p>Many staff had left the home amid "serious problems", he said during a weekend media briefing.</p>
+				<br>
+				<p>Its management company did not respond to a request from the BBC for comment but in a statement to the Canadian Broadcasting Corporation, said its appeals for help at the outbreak of the crisis went ignored by regional health officials.</p>
+				<br>
+				<p>The coroner's office said it is not currently investigating deaths at similar facilities in the province but is monitoring the situation closely.</p>
+				<br>
+				<p>The Quebec premier was more reassuring on Monday, saying provincial health officials are carrying out checks at all the province's long-term care homes - and in the majority of homes so far, patients were well treated and cared for.</p>
+				<br>
+				<p>He said it has long been a challenge to properly staff homes where workers are often paid low wages.</p>
+				<br>
+				<p>Some care home workers in Canada have staged protests over a lack of personal protective equipment available to them.</p>
+				<br>
+				<p>On Saturday, the federal government issues new guidelines to help homes prevent and contain contagion among residents.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

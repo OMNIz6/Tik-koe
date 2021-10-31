@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>A Fierce Battle in Western Myanmar Has Killed Hundreds as the Country Braces for COVID</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-25320i.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">25, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar’s diplomats, donors, some UN officials and “peace specialists” have left the country as the COVID-19 pandemic has spread across the world, and a month of bloody clashes have broken out between Myanmar soldiers and Arakanese rebels in northern Rakhine State. Over the last two months, it is not the virus but the escalation of the conflict that has taken many lives in northern Rakhine State.</p>
+				<br>
+				<p>The more than 40-day-long battle is likely to continue but last week, Myanmar military generals claimed that they had successfully repelled Arakan Army (AA) forces that were preparing to overtake Chin State’s Paletwa Township, on the border of India and Bangladesh.</p>
+				<br>
+				<p>Last week, a Myanmar army spokesman confidently said that they have pushed back AA troops who were trying to take over Meewa, a strategic hill near Paletwa.</p>
+				<br>
+				<p>Over 3,000 AA soldiers were believed to be involved in the offensive to take the hill, strategically located along the Paletwa-Kyauktaw road. The Myanmar army, joined by the air force and naval ships, defended the area and finally pushed back the AA forces.</p>
+				<br>
+				<p>Some senior commanding officers admitted that without air power, Myanmar forces on the ground would face tough times trying to hold the hill. In early March, as the AA encircled the strategic hill, army helicopters and planes dropped food supplies and ammunition to Myanmar forces. Helicopter gunships also attacked AA forces and there were reports of villagers and children being killed and wounded in the clashes.</p>
+				<br>
+				<p>Over the last two months, witnesses also saw military planes full of wounded soldiers flown out of Sittwe Airport in Rakhine State.</p>
+				<br>
+				<p>The AA’s goal in taking over Meewa was to expand its administrative control and influence not only in Paletwa but also to extend its control to the ancient city of Mrauk-U and Kyauktaw Township, in northern Rakhine State. AA leaders have said that they want to establish a base in Mrauk-U area in 2020. The AA’s “Way of Rakhita” campaign and the group’s struggle for self-determination have drawn many sympathizers in Rakhine communities at home and abroad. The group has succeeded in mobilizing youth from the region, which has been engulfed in poverty and inequality for decades.</p>
+				<br>
+				<p>Paletwa, on the bank of the Kaladan River, is a remote and impoverished township in Chin State with deep forests, hills and a border with India and Bangladesh, and it could serve as a stronghold from which the AA would control military operations in Rakhine State.</p>
+				<br>
+				<p>However, the AA doesn’t have the sympathy of the Chin people anyway. A few days ago, the Chin National Front (CNF) issued a press statement asking the AA not to use Chin State as a military base and to cease fighting. Chin leaders are also concerned that communal tensions are on the rise between ethnic Chin tribes and ethnic Rakhine. Since the outbreak of armed conflict in Rakhine, Chin and other ethnic minorities in the area have suffered the burden of the war. Reporters with The Irrawaddy recently travelled there and witnessed the rising tensions between Chin tribes and ethnic Rakhine, and the deep-seated mistrust among locals towards the AA.</p>
+				<br>
+				<p>On Monday this week, a nine-year-old child was killed and 15 civilians were seriously injured in a village in Rakhine State’s Minbya Township in an airstrike by Myanmar’s military. Residents of Che Taung where the majority of people are ethnic Chin, said bombs landed on their village where the majority of people are ethnic Chin, resulting in the child’s death and multiple injuries. Myanmar military spokesperson Brig-Gen Zaw Min Tun confirmed that the military used helicopters to return fire against the AA on Monday, but denied that they shot at the village and used bombs.</p>
+				<br>
+				<p><b>The AA is now terrorist organization </b></p>
+				<br>
+				<p>This week, the Home Affairs Ministry, under the leadership of new minister Lieutenant General Soe Htut, declared that the AA—along with the United League of Arakan, its political wing—is now considered a terrorist group.</p>
+				<br>
+				<p>“These terrorist acts of the United League of Arakan (ULA)/Arakan Army (AA) have caused serious losses of public security, lives and property, important infrastructure of the public and private sector, state-owned buildings, vehicles, equipment and materials,” the order said. Many in Rakhine, including villagers, their family members and local media, will now be in danger of being detained under Myanmar’s terrorism act. Moreover, supporters of the AA at home and abroad will be accused of assisting the terrorist organization and the military may also exercise laws to alarm funders and ethnic allies.</p>
+				<br>
+				<p>Until recently, there was confusion and frustration at the top of the military hierarchy in Naypyidaw regarding the military strategy in Rakhine State.</p>
+				<br>
+				<p>Some senior military leaders kept mum on the indecisiveness at the top military command over how to stop the AA’s aggression, repeated abductions and destruction of government properties in northern Rakhine State.</p>
+				<br>
+				<p>It has been revealed that Deputy Senior General Soe Win was keen to launch a major offensive in Rakhine but he needed to consult with top commanding officers as well as to listen to his boss, Senior General Min Aung Hlaing. Orders from the top were mixed until late last year.</p>
+				<br>
+				<p>But in spite of the confusion and frustration, it seems recently that there was a greenlight from the top level to launch an all-out offensive in northern Rakhine State as well as to cut the supply lines and funding of the AA. This latest decision by the military was also delivered to State Counsellor Daw Aung San Suu Kyi.</p>
+				<br>
+				<p><b>Clampdown on AA supporters and its underground network</b></p>
+				<br>
+				<p>In July 2019, Aung Myat Kyaw, brother of AA chief Major General Tun Myat Naing, and five of his colleagues were arrested by Singapore police in the city-state and deported to Myanmar. They were part of the Arakanese Association-Singapore (AAS), a social welfare organization that contributes relief aid from Singapore to the Arakanese displaced in the north of Rakhine State.</p>
+				<br>
+				<p>The group was accused of financing terrorism and charged under the terrorism law, which carries a minimum three-year prison sentence and a maximum of seven years, plus possible fines. In Rakhine State, police and local authorities have opened cases against civilians, officials and sympathizers with the AA under the Counter-Terrorism Law.</p>
+				<br>
+				<p>In October, Myanmar police arrested U Kyaw Naing, brother-in-law of Maj-Gen Tun Myat Naing, at Yangon International Airport on his return from Chiang Mai, in northern Thailand.</p>
+				<br>
+				<p>U Kyaw Naing’s wife Ma Yamin Myat (aka Moe Hnin Phyu, Maj-Gen Tun Myat Naing’s sister) was also arrested as she came to meet her husband at the airport.</p>
+				<br>
+				<p>In September 2019 in Mandalay, several AA members were arrested with 28 packs of gunpowder, 1,000 detonators and accessories, 40 satellite phones, 30 pairs of binoculars and 25 GPS devices at a house. They were intercepted as they were heading to Rakhine State.</p>
+				<br>
+				<p>In early December, Daw Hnin Zar Phyu, wife of Maj-Gen Tun Myat Naing, and their two children were detained in Chiang Mai as they went to the immigration office to extend their visas, but they were not deported to Myanmar. In February, Switzerland agreed to resettle the family and they left from Bangkok.</p>
+				<br>
+				<p>It is interesting to note that lots of ammunition and shipments have gone straight to Northern Rakhine State, via Mandalay and Sagaing regions.</p>
+				<br>
+				<p>Some senior military officers confided that they suspect Rakhine rebels have, over the past five years, transported several large shipments to northern Rakhine State through Mandalay and Sagaing Regions.</p>
+				<br>
+				<p>In February 2016, two Arakanese men, one claiming to be a lieutenant colonel in the AA, were arrested in Yangon with weapons including six RPG launchers, detonators and explosive materials.</p>
+				<br>
+				<p>Lately, the Myanmar military and intelligence services have also been actively monitoring AA activities and funding sources, including overseas sources and drug trafficking activities. The Myanmar military has repeatedly charged that the AA is involved in drug trafficking.</p>
+				<br>
+				<p>By sheer luck, the military also caught a senior AA leader in Northern Rakhine.</p>
+				<br>
+				<p>In August 2019, an abbot from Oe Htain Village, in Mrauk-U Township, and two villagers were arrested by the army and taken to Lin Mway Taung Hill, where they were detained and interrogated. It later came out that during the interrogation, one of the villagers was discovered to be a founding member of the AA.</p>
+				<br>
+				<p>From his phone, the army gathered strategic information, plans for offensives in northern Rakhine and other vital information and video images.</p>
+				<br>
+				<p>Soon after the arrest, AA rebels came to attack Lin Mway Taung Hill and fierce clashes broke out before the AA finally retreated.</p>
+				<br>
+				<p>It was suspected that the AA wanted to rescue the prisoners, including the abbot. During the clashes, an army helicopter transported the prisoners for further interrogation. The military has obtained valuable information from the AA founding member, according to senior military officers in Naypyidaw. The abbot and one villager are now on trial and one other villager is still in military custody.</p>
+				<br>
+				<p><b>Pressure from an ethnic alliance</b></p>
+				<br>
+				<p>The AA is also a member of the Northern Alliance—a group of four ethnic armed organizations based near the country’s northern and northeastern border: the Ta’ang National Liberation Army (TNLA), the Myanmar National Democratic Alliance Army (MNDAA), the Kachin Independence Army (KIA) and the AA.</p>
+				<br>
+				<p>Among them, the KIA is the largest armed group and over 4,000 AA rebels are now based in Laiza, where the KIA headquarters are located.</p>
+				<br>
+				<p>The KIA still trains, provides ammunition and supplies food for AA soldiers, but there is a rumor of tensions between the two and that the KIA is asking the AA to vacate its Laiza headquarters. Some ethnic leaders also reportedly told the AA to give up its illicit trade activities.</p>
+				<br>
+				<p>In December, in an interview with The Irrawaddy, Maj-Gen Tun Myat Naing  criticized some ethnic leaders who have been fighting in the ethnic struggle for 70 years.</p>
+				<br>
+				<p>He lashed out at them, saying that some leaders have been enjoying lives of luxury, drinking wine, and then giving up their fights—that over 15 years of ceasefire, they have had 15 years of living opulent lives, while ordinary soldiers have been left without money or anything to show.</p>
+				<br>
+				<p>This remark angered several ethnic leaders: they asked for an official apology from the AA leader. He finally relented, but has paid the price of rotting away the AA’s alliance and friendship with these leaders.</p>
+				<br>
+				<p>In any case, pressure on the AA will continue to mount. As it is now an official terrorist group under Myanmar law, some ethnic leaders worry that there is a bumpy road ahead for fragile ceasefire talks between ethnic groups and the military or government.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

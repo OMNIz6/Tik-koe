@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Mandalay Bus Company Banned for Violating Govt COVID-19 Order</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-3420g.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">3, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The Mandalay regional government has banned bus company Pan Taw Oo Express from operation after the company crowded passengers onto its coaches in violation of a regional order to allow social distancing and reduce the risk of a COVID-19 outbreak.</p>
+				<br>
+				<p>The Mandalay government issued a regional order last Saturday instructing all bus operators to carry only half the regular number of passengers on each coach. The order allows bus operators to double their ticket fees in order to make up losses from selling fewer tickets.</p>
+				<br>
+				<p>On Tuesday, a Facebook user posted photos showing passengers packed onto a Pan Taw Oo Express coach, filling the aisle. The photos later went viral. The user said in the accompanying post that his uncle and aunt had still paid the double ticket price.</p>
+				<br>
+				<p>Mandalay’s road and transportation authority told media on Thursday that it has banned Pan Taw Oo Express from operation for failing to follow the regional order.</p>
+				<br>
+				<p>“We immediately investigated Pan Taw Oo Express regarding the Facebook report. Today we banned [the operator] according to the instructions of the regional government,” said U Maung Maung Aye Tun, regional road and transportation authority deputy director, on Thursday.</p>
+				<br>
+				<p>Pan Taw Oo Express began operating in Mandalay eight years ago and its coaches ran between Mandalay Region and Magway Region.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar’s Yangon, Ayeyarwady Regions Extend COVID-19 Curfews for 2 Months</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-24420f.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">24, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Authorities in Yangon and Ayeyarwady regions announced on Thursday night that a nighttime curfew in the regions would remain in place for the next two months to contain the spread of the coronavirus.</p>
+				<br>
+				<p>The announcements were made soon after State Counselor Daw Aung San Suu Kyi said there would be an extension of COVID-19 directives and orders issued by the National Central Committee on Prevention, Control and Treatment of COVID-19 beyond the end of this month.</p>
+				<br>
+				<p>The curfew, which bans residents from leaving their homes between 10 p.m. and 4 a.m., was imposed starting from April 18 in several states and regions. In the original order, the authorities didn’t mention the duration, stating that the order would be effective until further notice.</p>
+				<br>
+				<p>The police force is helping enforce the curfew, and violators risk one to two months’ imprisonment. Courts in Ayeyarwady Region recently sentenced 24 people to one month in prison for breaking the area’s overnight curfew.</p>
+				<br>
+				<p>Yangon Immigration and Human Resources Minister Daw Moe Moe Suu Kyi, who is a member of the region’s COVID-19 Control and Emergency Response Committee, said the government imposed the ban as it is necessary for both security and health reasons during the COVID-19 outbreak.</p>
+				<br>
+				<p>In the face of the outbreak of COVID 19, many other ASEAN countries including Thailand, the Philippines, Vietnam and Indonesia have implemented curfews or partial lockdowns and other restrictive measures.</p>
+				<br>
+				<p>Myanmar had reported a total of 139 COVID-19 confirmed cases with 5 deaths and nine recoveries as of Thursday.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

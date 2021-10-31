@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Botswana coronavirus: quarantined prez, MPs released after testing negative</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-23420g.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">23, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>africanews.</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Botswana’s president and vice president have been released from home quarantine after testing negative for COVID-19.</p>
+				<br>
+				<p>The presidency in a statement today said: “Director of Health Services has released His Excellency, Dr Mokgweetsi Eric Keabetswe Masisi, President of the Republic … and …Vice President Slumber Tsogwane from home quarantine today, 23rd April 2020.</p>
+				<br>
+				<p>“This follows the release of their COVID 19 test results which came out negative yesterday,” the statement by presidential spokesperson Batlhalefi Leagajang said.</p>
+				<br>
+				<p>“All members of parliament have tested negative for COVID-19 and they are being released from quarantine,” Kereng Masupu, coordinator of the COVID-19 Presidential Task Force, told a news briefing.</p>
+				<br>
+				<p>On April 9, all members of the legislature were admitted to home quarantine after a nurse on duty at the parliament tested positive for the virus. The president and vice are also MPs and were present at the said date.</p>
+				<br>
+				<p>A day after the order, some unnamed MPs were arrested and put in institutional quarantine for breaching self quarantine rules. They were pictured in shopping malls at a time they were meant to be in quarantine.</p>
+				<br>
+				<p>Botswana, currently under a state of emergency and lockdown has 22 confirmed cases to date (April 23), one death has been recorded with zero recoveries. The overall test tally stands at 5,023 people. Two senior health officials were fired by the president on Wednesday for undisclosed reasons.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

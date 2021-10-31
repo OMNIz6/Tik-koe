@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Govt Cracks Down on Fake COVID-19 News</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-6420h.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">6, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The Myanmar government has begun to take legal action against people who spread “fake news” and rumors related to the coronavirus as authorities arrested and charged a man from Bago Region’s Yaytarshay Township on Saturday.</p>
+				<br>
+				<p>According to the Ministry of Home Affairs, Bone Myint Moe was arrested for posting a message saying “Ba Ring Gone is positive” in the Facebook group for Yaytarshay on Saturday evening.</p>
+				<br>
+				<p>“He wrote that there was a COVID-19 positive patient in Ba Ring Gone Village who was sent to Taungoo and warned people to be careful,” said a police officer from Yaytarshay police station. “An official from the township administration office filed a lawsuit under the Natural Disaster Management Law’s Article 27.”</p>
+				<br>
+				<p>The article says that anyone who spreads misinformation about a disaster with the aim of sparking dread among the public shall be punished with a maximum of one year in prison and a fine.</p>
+				<br>
+				<p>Since the World Health Organization declared COVID-19 a global pandemic, the Myanmar government has told people in the country not to spread the rumors and to beware of fake news.</p>
+				<br>
+				<p>As soon as the country’s first COVID-19 case was reported, the government issued repeated warnings that anyone who spreads rumors or fake news will be punished according to the law.</p>
+				<br>
+				<p>The government also warned that those who refuse to follow rules and regulations imposed to combat the coronavirus could face lawsuits under the 2013 Natural Disaster Management Law</p>
+				<br>
+				<p>A groom who held a wedding celebration in Tamu, Sagaing Division, in violation of local authorities’ instructions to postpone the event was sentenced to six months in prison and ordered to pay a one million kyat fine (US$700) on Friday, under the Natural Disaster Management Law.</p>
+				<br>
+				<p>The groom, Htan Lin Shein, arrived from the United States and did not home quarantine for 14 days, instead choosing to hold his wedding reception on March 28, despite authorities’ instructions that he must postpone the event to avoid drawing a crowd. Another groom from the same township is facing the same lawsuit under the same law for also holding his wedding.</p>
+				<br>
+				<p>In Sagaing Division’s Khin Oo Township, a man is facing a lawsuit under the same law for holding a Buddhist ritual ceremony to celebrate the ordination of local young monks.</p>
+				<br>
+				<p>A man in Sagaing’s Ye Oo Township was arrested for running away from a government COVID-19 quarantine facility and is also facing a lawsuit under the Natural Disaster Management Law.</p>
+				<br>
+				<p>Two men from Sagaing’s Ayadaw Township and Mandalay’s Tada-U Township were arrested and sued for attacking local authorities who were conducting patrols and education programs on coronavirus prevention.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

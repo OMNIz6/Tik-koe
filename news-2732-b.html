@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Apartment Blocks Under Quarantine After Myanmar Finds Two More COVID-19 Cases</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-27320b.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">27, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Apartment buildings where Myanmar’s latest COVID-19 patients lived are under quarantine after two men tested positive on Friday.</p>
+				<br>
+				<p>The country’s health ministry confirmed that a 69-year-old in Yangon and a 33-year-old in Mandalay had the disease. Both men recently arrived from overseas.</p>
+				<br>
+				<p>Myanmar reported its first case early this week and now has five confirmed COVID-19 cases.</p>
+				<br>
+				<p>Following the government’s announcement on Friday, an eight-story building in Yangon’s Mingalar Taung Nyunt Township has been put under 14-day quarantine.</p>
+				<br>
+				<p>The man arrived on March 14 from Australia, where he received a month’s medical treatment for nasal cancer. On his way home, he stopped in Singapore for four days. He suffered from a fever, cough and sore throat shortly after arriving in Yangon and was admitted to hospital for observation.</p>
+				<br>
+				<p>On Friday, the building and its grounds have been disinfected.</p>
+				<br>
+				<p>The township’s lawmaker, U Hla Htay, told The Irrawaddy that his daughter, nephew and drivers were under observation at the Waibargi Infectious Diseases Hospital in Yangon.</p>
+				<br>
+				<p>“Now we have assigned community volunteers to isolate the building and support those inside,” he said.</p>
+				<br>
+				<p>In Mandalay, the regional government has quarantined a building in Chanmyathazi Township.</p>
+				<br>
+				<p>The US citizen arrived on March 19 with Qatar Airways. He spent a night in Yangon before heading to Mandalay by bus.</p>
+				<br>
+				<p>Five of his relatives are under quarantine at Kandawnadi Hospital, according to the township’s lawmaker, U Myint Aung Moe.</p>
+				<br>
+				<p>He said about 80 people in the 18 apartments in the building were under quarantine and their health would be monitored.</p>
+				<br>
+				<p>“They all are now ordered to follow home quarantine and the authorities will make sure they stay at home. Daily health checks will be carried out,” said the lawmaker.</p>
+				<br>
+				<p>The man had a cough, sore throat and high temperature and was admitted to Mandalay General Hospital on March 25. He is now under isolation at Kandawnadi Hospital.</p>
+				<br>
+				<p>The hospital said the patient had swellings on his lungs but was in a stable condition.</p>
+				<br>
+				<p>The regional government asked everyone who had contact with him, including his taxi driver, bus driver and the passengers on his flight and bus, to report to a clinic.</p>
+				<br>
+				<p>So far Myanmar has cases in Yangon’s Wabagi hospital, Insein Hospital and Yangon General Hospital, one case in Mandalay Kandawnadi Hospital and another in Tedim Hospital in Chin State.</p>
+				<br>
+				<p>As of Thursday night, 20 people suspected of having the disease were under observation, according to the Ministry of Health and Sports.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

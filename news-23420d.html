@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Volunteers Help Yangon’s Hungry During COVID-19 Outbreak</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-23420d.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">23, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Since COVID-19 hit Myanmar, many NGOs and philanthropic groups have led the response within communities. They have tried to meet the challenges of coronavirus and fill the gaps in the authorities’ response.</p>
+				<br>
+				<p>In Yangon, the worst-hit region of the country, the NGO Clean Yangon is helping the city’s vulnerable residents, including squatters, elderly vendors and daily-wage earners to help mitigate the impact of COVID-19. They no longer make a living as the city is at a standstill as most people stayed at home following the government’s request and many businesses closed.</p>
+				<br>
+				<p>The Irrawaddy talked with the group’s founder, Ko Zay Yar Tun, about the challenges facing communities and the responses.</p>
+				<br>
+				<p><b>Tell us about Clean Yangon’s COVID-19 activities.</b></p>
+				<br>
+				<p>Since early March, we have been raising public awareness about how to prevent the spread of COVID-19 as it had already badly hit other countries. After Myanmar’s first confirmed cases on March 23, we tried to support health care workers and volunteers on the frontline. We provided food and multivitamins pills to hospitals and quarantine centers. Our volunteers also help with the Yangon Public Health Department in transporting supplies to quarantine centers and collecting data on the returnees from overseas. We noticed the poor are the worst affected and launched a program to provide basic food packages to different places every other day.</p>
+				<br>
+				<p>We have distributed packages [including rice, cooking oil, canned fish, salt, beans and multivitamins pills] to 1,500 poor families in East Dagon, South Dagon, Hlaing Tharyar and Kawhmu townships. Most of them are squatters. We also distributed food to street vendors who are making no income, those living on the streets and municipal staff.</p>
+				<br>
+				<p><b>The government has encouraged people to stay at home and to socially distance to prevent the spread of COVID-19. How are you prepared for the risks in donations of distributing food?</b></p>
+				<br>
+				<p>We were prepared from the beginning. We always have the lowest possible number of volunteers. And we walk door-to-door to distribute food. We ask people not to come out to the street to take the food. It is a bit tiring but safety is the first priority. Volunteers wear face shields, masks and sanitize their hands before they distribute food to protect the recipients.  If you ask aren’t we afraid, we are scared of being infected. But if we stay indoors, we can’t help those in need. So we need to go out. If the situation gets worse, we will try to reduce the number of volunteers in each team.</p>
+				<br>
+				<p><b>Many groups and volunteers are actively supporting the fight against COVID-19. What is your view on that?</b></p>
+				<br>
+				<p>We are poorer than other countries and so we have more challenges. Government departments are doing their best but public concerns are also growing. Only with our collective strength can we overcome this.</p>
+				<br>
+				<p><b>What are your plans for the next weeks?</b></p>
+				<br>
+				<p>Clean Yangon will continue to run with the support of our donors. At the start, we received a lot of donations but they have fallen recently. It could be because they support other sectors in need. We have bought food supplies to distribute. We expect that in three to six months, there will be many more people in need, struggling to make a living as many daily wage earners are now losing their income. We will try to support them.</p>
+				<br>
+				<p><b>Contact Clean Yangon on 09 799 670 914, 09 420 026 477 or 09 250 031 832.</b></p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

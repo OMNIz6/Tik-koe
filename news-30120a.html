@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>US Evacuees From Virus-Hit Wuhan Quarantined at California Air Base</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-30120a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">30, 1, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Nearly 200 Americans airlifted from China in the midst of the coronavirus outbreak arrived on Wednesday at a US military base in California, where they will remain isolated for at least 72 hours of medical evaluation, public health officials said.</p>
+				<br>
+				<p>The group, mostly US diplomats and their families, were evacuated from Wuhan at the epicenter of the outbreak aboard a US government-chartered cargo jet that stopped to refuel in Alaska on Tuesday night before flying on to March Air Reserve Base, about 97 km east of Los Angeles.</p>
+				<br>
+				<p>Foreign governments have begun flying their citizens out of Wuhan as the death toll has risen and the city has entered into a virtual quarantine, with Chinese authorities trying to contain the virus.</p>
+				<br>
+				<p>The 195 passengers at March Air Base were medically screened by Chinese government and US State Department officials before boarding the plane in Wuhan, and again during the refueling stop by a team from the US Centers for Disease Control and Prevention, CDC officials said.</p>
+				<br>
+				<p>All the passengers have agreed to remain voluntarily in special housing at the military base, cordoned off from base personnel, for 72 hours.</p>
+				<br>
+				<p>“These people are not under federal quarantine orders,” said Dr. Christopher Braden, deputy director of the CDC’s National Center for Emerging and Zoonotic Infectious Diseases.</p>
+				<br>
+				<p>“I personally talked to them when they were disembarking and going through their first screening checks. They were happy to be here. They were very cooperative with the questions,” Braden told a news conference at the Riverside University Health System Medical Center, near the base. “They want to protect themselves. They want to protect others.”</p>
+				<br>
+				<p><b>No one showed symptoms</b></p>
+				<br>
+				<p>The US evacuees, who underwent another round of screening on arrival in California, will be given further medical evaluations, including a blood test for exposure to the virus, over the next three days, the officials said.</p>
+				<br>
+				<p>None of the arriving passengers has so far exhibited any signs of illness such as fever, cough or other respiratory symptoms, the officials said.</p>
+				<br>
+				<p>The screening in Alaska included a questionnaire to check for factors that would deem them to have been at high risk of infection, including exposure to someone diagnosed with coronavirus or close contact to someone living with a person who was sick.</p>
+				<br>
+				<p>“There were no individuals who responded to the questions indicating they were high-risk,” said Dr. Nancy Knight, director of the CDC’s Division of Global Health Protection. “We are reassessing that now.”</p>
+				<br>
+				<p>One individual on the original evacuation manifest was barred from boarding the plane in China because the person had a fever.</p>
+				<br>
+				<p>The State Department ordered its personnel evacuated from the US Consulate in Wuhan and welcomed other American citizens onto the flight because there was excess room on the plane, CDC officials said. The group included an unspecified number of children, ranging from a month-old infant to teenagers, they said.</p>
+				<br>
+				<p>The plan is to allow the evacuees to return to their homes once the initial evaluation period is over, provided there is no indication of exposure or illness, the officials said.</p>
+				<br>
+				<p>At that point, absent any symptoms or a positive test result, an individual would be considered non-infectious and be permitted to travel on public transportation without putting others at risk, Braden said.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

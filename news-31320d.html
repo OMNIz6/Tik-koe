@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>World Bank Warns Pandemic Will Hit Growth in Asia, China</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-31320d.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">31, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The coronavirus pandemic is expected to sharply slow growth in developing economies in East Asia and the Pacific as well as China, the World Bank said in an economic update on Monday.</p>
+				<br>
+				<p>The bank said precise growth forecasts were difficult, given the rapidly changing situation, but its baseline now called for growth in developing economies in the region to slow to 2.1 percent in 2020, and to -0.5 percent in a lower-case scenario, compared to estimated growth of 5.8 percent in 2019.</p>
+				<br>
+				<p>In China, where the coronavirus outbreak originated in late December, growth was projected to slow to 2.3 percent in the baseline scenario, or as low as 0.1 percent in the lower-case scenario, compared to growth of 6.1 percent in 2019.</p>
+				<br>
+				<p>The region faced an unusual combination of “disruptive and mutually reinforcing events,” the report said. “Significant economic pain seems unavoidable in all countries.”</p>
+				<br>
+				<p>Countries in the region should invest in healthcare capacity and take targeted fiscal measures, such as providing subsidies for sick pay and healthcare, to mitigate some of the immediate impacts of the pandemic, the World Bank said.</p>
+				<br>
+				<p>“Containment of the pandemic would allow for a sustained recovery in the region, although risks to the outlook from financial market stress would remain high,” it said.</p>
+				<br>
+				<p>The financial shock of the pandemic was also expected to have a serious impact on poverty, defined as income of $5.50 a day, the bank said. The baseline scenario called for nearly 24 million fewer people to escape poverty across the region in 2020 due to the pandemic. If the economic situation deteriorated even further, poverty could increase by about 11 million people.</p>
+				<br>
+				<p>Prior projections estimated that nearly 35 million people would escape poverty in the region in 2020, including over 25 million in China alone, the bank said.</p>
+				<br>
+				<p>In addition to targeted fiscal measures, countries should look to deeper international cooperation and new cross-border public-private partnerships to ramp up the production and supply of key medical supplies and services, and ensure financial stability in the aftermath of the crisis, it said.</p>
+				<br>
+				<p>Countries should also ease credit to help households smooth their consumption and help firms survive the immediate shock of the outbreak.</p>
+				<br>
+				<p>“The good news is that the region has strengths it can tap, but countries will have to act fast and at a scale not previously imagined,” said Victoria Kwakwa, vice president for East Asia and the Pacific at the World Bank.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

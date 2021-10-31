@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Germany slowly eases lockdown measures</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-15420c.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">15, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p><b>German Chancellor Angela Merkel has announced plans to slowly ease restrictions brought in to tackle the coronavirus pandemic.</b></p>
+				<br>
+				<p>Social distancing rules will stay in place until at least 3 May, with Ms Merkel also recommending the use of face masks in shops and on public transport.</p>
+				<br>
+				<p>But as of next week shops under a certain size could open their doors.</p>
+				<br>
+				<p>And schools will gradually start to reopen from 4 May.</p>
+				<br>
+				<p>Ms Merkel said the country had achieved "fragile intermediate success" through the strict measures.</p>
+				<br>
+				<p>The chancellor said the country "must keep focused and keep going", adding that they "do not have a lot of room for manoeuvre".</p>
+				<br>
+				<p>Large public gatherings including religious services will remain banned until 31 August. Bars, cafes, restaurants, cinemas and music venues will all remain closed.</p>
+				<br>
+				<p>According to Germany's Robert Koch Institute (RKI), the country has 127,584 confirmed cases and has reported 3,254 deaths.</p>
+				<br>
+				<p>Ms Merkel's announcement makes Germany the latest European nation to start easing restrictions:</p>
+				<br>
+				<p>
+					<ul>
+						<li>Denmark has reopened schools and nurseries for children up to the age of 11</li>
+						<li>Construction and manufacturing work is back under way in Spain</li>
+						<li>Thousands of smaller shops in Austria reopened on Tuesday, and the country will allow outdoor sport such as tennis, golf and athletics from 1 May</li>
+						<li>Some regions in Italy have reopened bookshops and children's clothing stores</li>
+					</ul>
+				</p>
+				<br>
+				<p>France, however, has extended its lockdown measures for four more weeks until 11 May. Belgium will maintain its restrictions until at least 3 May.</p>
+				<br>
+				<p>And in Russia, veterans groups have called for President Vladimir Putin to postpone the World War Two 75th anniversary victory parade planned for 9 May, because of the risk it could pose to participants.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Thailand to Shut One of Two Border Crossings With Myanmar Amid COVID-19 Concerns</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-20320e.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">20, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The governor of Thailand’s Tak province has decided to close one of the two Thailand-Myanmar border checkpoints at Mae Sot, across from Myawaddy, Karen State, from Saturday, March 21 until further notice, in an effort to curb the spread of the coronavirus.</p>
+				<br>
+				<p>U Thant Zin Aung, a state parliamentarian from Myawaddy Township, told The Irrawaddy, “According to the Tak provincial authorities’ meeting on Friday afternoon, we were told that the Friendship Bridge No. 1 will be closed but the Bridge No. 2 will be opened as usual.”</p>
+				<br>
+				<p>Thailand has recorded one death from COVID-19 since the outbreak started in China’s Wuhan City in December. As of Friday, it had 322 cases. Of these, 43 patients have recovered and been discharged from hospitals and 278 are still being treated.</p>
+				<br>
+				<p>As Thailand saw a large jump this week in its number of recorded infections, the Thai government closed down schools, universities and entertainment venues around the country for two weeks, starting Wednesday, March 18.</p>
+				<br>
+				<p>It will also restrict the movement of foreigners by air, by requiring any foreigners entering the Kingdom to show a medical certificate ensuring the person is free of COVID-19 as well as health insurance showing at least US$100,000 worth of coverage for COVID-19 treatment starting on Sunday, March 22.</p>
+				<br>
+				<p>As of Friday evening, Myanmar still had no confirmed COVID-19 cases. Fourteen people were added to a list of cases under observation on Friday, taking the total number to 189 people, according to the Myanmar Ministry of Health and Sports’ latest announcement.</p>
+				<br>
+				<p>Tak provincial authorities also released a statement on Friday at 6:30 p.m., in which they said the entry and exit of persons and vehicles will be suspended at the first border checkpoint starting from Saturday morning to control the spread of the coronavirus.</p>
+				<br>
+				<p>The statement said the second border checkpoint is open as usual. It said the border crossing and movement along the Moei River will return to normal after the virus situation improves.</p>
+				<br>
+				<p>It said the action was in accordance with directives from Thai Prime Minister Prayut Chan-o-cha, who has urged the country’s provincial governors to implement quarantines in their constituencies.</p>
+				<br>
+				<p>U Thant Zin Aung said that while Bridge No. 1 is closed, citizens of both countries can still cross the border with a temporary border pass at Bridge No. 2 or the new border checkpoints, but they all have to undergo health checks.</p>
+				<br>
+				<p>Myanmar migrant workers in Thailand and day travelers mostly use the first border checkpoint; several thousand people cross the border there daily.</p>
+				<br>
+				<p>Myanmar on Thursday banned all foreigners from entering via land border checkpoints, but allows local residents of areas on both sides with border passes to cross, with enforced health checks and body temperature screening.</p>
+				<br>
+				<p>Friendship Bridge No. 2 is a new border checkpoint opened in October last year to accommodate cross border trade between Tak and Myawaddy to enhance the Natural Strategic Partnership between Thailand and Myanmar, and to facilitate economic development along the East-West Economic Corridor (EWEC) initiated to promote development and integration of five Southeast Asian countries: Myanmar, Thailand, Laos, Cambodia and Vietnam.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

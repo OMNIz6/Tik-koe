@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Denmark lets young children return to school</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-15420d.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">15, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p><b>Children up to the age of 11 are returning to nurseries and schools across Denmark, as the government becomes the first in Europe to relax coronavirus restrictions on education.</b></p>
+				<br>
+				<p>Prime Minister Mette Frederiksen welcomed children as they went back to school in the capital Copenhagen.</p>
+				<br>
+				<p>Denmark was among the first countries in Europe to impose a lockdown, with schools closed on 12 March.</p>
+				<br>
+				<p>Infection rates have been low but critics warn the strategy is risky.</p>
+				<br>
+				<p>"We're all a bit nervous and we'll have to ensure that we stick to hygiene rules," Elisa Rimpler of the BUPL, the Danish Union of Early Childhood and Youth Educators, told the BBC.</p>
+				<br>
+				<p>"We have a lot of washing hands during the day. We don't have masks and we have to keep a good distance from each other so that's a very difficult task."</p>
+				<br>
+				<p>Denmark's move came as European Commission chief Ursula von der Leyen set out a roadmap on Wednesday for a gradual lifting of restrictions across the 27-state bloc, but made clear it was not a signal to act immediately.</p>
+				<br>
+				<p>She set out key conditions involving a significant decrease in the spread of Covid-19, capacity in the health system, surveillance and monitoring. A donors' conference will take place online for governments and organisations to pledge money in search of a vaccine, Mrs von der Leyen added.</p>
+				<br>
+				<p>Other countries besides Denmark have moved to relax lockdown measures this week:</p>
+				<br>
+				<p>
+					<ul>
+						<li>Austria reopened thousands of smaller shops on Tuesday and has said it will allow outdoor sport such as tennis, golf and athletics from 1 May</li>
+						<li>The Czech government has set out a five-stage timetable</li>
+						<li>Spain has allowed non-essential workers to go back to work after a two-week pause</li>
+						<li>Italian bookshops and clothing stores for youngsters have reopened their doors in some regions</li>
+					</ul>
+				</p>
+				<br>
+				<p>German Chancellor Angela Merkel will discuss easing restrictions with the country's 16 state premiers on Wednesday, with reports that they are expected to agree to a limited reopening of shops from next Monday and a relaxation of rules on movement from 3 May.</p>
+				<br>
+				<p>Spain reported another 523 deaths on Wednesday and a 3% increase in infections but officials said the rise in new cases may have been due to a delay in reporting because of the Easter break.</p>
+				<br>
+				<p>In Russia, veterans' groups have appealed to President Vladimir Putin to cancel the 9 May military victory parade marking the 75th anniversary of the end of World War Two. Kremlin officials have indicated the event could be held at a later date.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

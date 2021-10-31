@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus Hits Myanmar’s Travel Agents</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-4220c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">4, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar’s travel agents have been further hit by the Ministry of Hotels and Tourism’s suspension of visas-on-arrival for Chinese tourists and demands that tour operators cancel Chinese trips to stop the spread of the coronavirus.</p>
+				<br>
+				<p>The ministry canceled visas-on-arrival for Chinese visitors on Saturday and on Monday instructed tour operators to suspend all travel services for Chinese tourists and tours from China.</p>
+				<br>
+				<p>The move followed the announcement by the World Health Organization that the coronavirus outbreak was a global emergency.</p>
+				<br>
+				<p>“We have to cancel all of the booked tours for February and the remaining tours are at risk until the end of the peak season. Operations have completely stopped for small travel agencies that only handle Chinese tours,” said a tour operator from Yangon, who asked not to be named.</p>
+				<br>
+				<p>Myanmar had been expecting to receive more Chinese tourists this season than in previous years.</p>
+				<br>
+				<p>“We received twice as many Chinese bookings than last year. We pray the coronavirus can be controlled,” the travel agent said.</p>
+				<br>
+				<p>Myanmar received more than 300,000 Chinese tourists in 2018 and more than 750,000 in 2019, according to the Ministry of Hotels and Tourism.</p>
+				<br>
+				<p>“Many businesses, families and individual trips are being canceled as they fear infection,” said Ma Hla Hla Myint, another tour operator in Yangon.</p>
+				<br>
+				<p>“Some of our European customers are also canceling trips because their flights stop in China or Hong Kong,” she said.</p>
+				<br>
+				<p>Transport and car rental services are also affected.</p>
+				<br>
+				<p>“There have been fewer European and US tours visiting in recent years. But we received many Chinese tourists last year and business was very good. We expected this year to be better but this is for our safety and we have to accept it,” said the owner of a car rental service in Mandalay.</p>
+				<br>
+				<p>“We have canceled all the inbound and outbound tours for February and informed our customers,” said a representative of another operator in Yangon, which arranges visits to Myanmar and China.</p>
+				<br>
+				<p>Ko Thura, a tour operator from Mandalay, said: “International airports are banning Chinese airlines. Many visitors to Myanmar use Chinese airlines and the disruption will increase if the number of infections rises.”</p>
+				<br>
+				<p>Yangon International Airport said around 12 airlines had been banned, including China Eastern Airlines, which flew directly from virus-hit Wuhan to Yangon and Mandalay, China Southern Airlines, Kunming Airlines, Air China, Myanma Airways International and Myanmar National Airlines.</p>
+				<br>
+				<p>The death toll has reached 425 and over 20,400 confirmed cases were reported in China and more than 150 confirmed cases have been reported outside China, according to the WHO.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Military Gives Support to Religious Leaders, Govt on COVID-19 Prevention</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-30320g.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">30, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar’s regional military commanders have provided medicine, protective masks, hand sanitizer and conducted medical checks for religious leaders in different states and regions, as a contribution to government efforts to prevent and control the spread of COVID-19.</p>
+				<br>
+				<p>Over the past week, as the number of confirmed coronavirus cases in the country has risen, regional military commanders visited monasteries, churches, mosques and Hindu temples to help disinfect the sites and meet with senior religious leaders.</p>
+				<br>
+				<p>Yangon Region military commander Major General Thet Pone visited the Archbishop of Yangon, Cardinal Charles Bo, provided the Catholic Archdiocese of Yangon with preventive supplies and conducted medical checks. A military medical team led by the regional commander also sprayed disinfectant at the Archdiocese headquarters.</p>
+				<br>
+				<p>The Kachin Baptist Convention (KBC) said Sunday that the military’s North Command conducted medical checks and sanitation activities at its office and at churches in the Kachin State capital of Myitkyina.</p>
+				<br>
+				<p>According to the Office of the Commander-in-Chief, the regional commands conducted medical checks, sanitized religious sites and gave donations to senior Buddhist monks, nuns and leaders from other religions in Naypyitaw, Kachin, Shan, Kayah, Mon and Rakhine states and Tanintharyi, Sagaing, Bago, Mandalay and Yangon regions.</p>
+				<br>
+				<p>Though there may be a propaganda agenda behind the activities, the Office of the Commander-in-Chief stated on their website that they are conducting the activities as a form of “cooperation” with the government.</p>
+				<br>
+				<p>“The military is also cooperating with the people and government,” the Office of the Commander-in-Chief stated.</p>
+				<br>
+				<p>Many political analysts believe the relationship between the civilian government led by Daw Aung San Suu Kyi and Myanmar’s powerful military leadership has worsened recently.</p>
+				<br>
+				<p>Military-appointed lawmakers in Parliament said attempts by the ruling National League for Democracy party to reform the military-drafted Constitution were a disruption to civilian-military relations and only served to sow mistrust.</p>
+				<br>
+				<p>The party’s bid to amend the charter was defeated by military appointed-lawmakers and the military-backed Union Solidarity and Development Party.</p>
+				<br>
+				<p>However, military spokesperson Brigadier General Zaw Min Tun told reporters at a recent press conference in Naypyitaw that the military will collaborate with the government on efforts to control COVID-19 in order to protect national interests. He said the military has prepared military hospitals to be used as quarantine centers and has put medical teams on alert.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

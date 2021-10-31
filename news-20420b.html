@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Who's Who of Pop Culture Unites for ‘One World’ Coronavirus Special</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-20420b.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">20, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Lady Gaga, Taylor Swift, Paul McCartney, The Rolling Stones, Beyonce and Oprah Winfrey on Saturday headlined a special broadcast of music, comedy and personal stories celebrating those around the world on the frontlines of the coronavirus pandemic.</p>
+				<br>
+				<p>The two-hour “One World: Together at Home” event, broadcast across multiple television channels in the United States and overseas, featured a Who’s Who of pop culture in the biggest celebrity gathering so far to mark the effects of the virus.</p>
+				<br>
+				<p>Contributions, all filmed in their homes, also came from Elton John, Jennifer Lopez, Stevie Wonder, British soccer star David Beckham, former US first ladies Michelle Obama and Laura Bush, Andrea Bocelli, Celine Dion, Billie Eilish, Bill Gates and dozens of others.</p>
+				<br>
+				<p>“I’m so grateful for the healthcare workers, the medical workers, all the grocery store workers and delivery people, the postal workers, all the other nonprofits that are working so hard,” said Gaga, who helped organize the event.</p>
+				<br>
+				<p>“This is really a true love letter to all of you all over the world, and I hope a reminder of the kindness that’s occurring right now,” she added.</p>
+				<br>
+				<p>The event, led by the World Health Organization (WHO) and the nonprofit group Global Citizen, told the personal stories of teachers and healthcare, grocery, delivery, postal and other workers.</p>
+				<br>
+				<p>It showed social media postings and news clips of doctors and nurses being applauded by communities around the world, deserted world landmarks, families greeting each other through windows, and acts of kindness in support of those who are isolated and frail.</p>
+				<br>
+				<p>“We aren’t asking for money tonight,” said Stephen Colbert who hosted the broadcast alongside his US late night television rivals Jimmy Kimmel and Jimmy Fallon.</p>
+				<br>
+				<p>Instead of seeking public funds, the event encouraged philanthropists and companies to contribute to the WHO’s COVID-19 Solidarity Response Fund. Corporate and other donors have already contributed some US$150 million (213.26 billion kyats), organizers said.</p>
+				<br>
+				<p>“What I’d like tonight, if I can, is to give you the permission for the moment to… ‘Smile’,” said Gaga, kicking off the evening by launching into a version of the ballad made famous by Nat King Cole.</p>
+				<br>
+				<p>Beyonce did not perform but sent a video message in which she noted the disproportionately high death rates from COVID-19 in the black community.</p>
+				<br>
+				<p>“This virus is killing black people at an alarming rate in America,” she said, urging viewers to protect themselves.</p>
+				<br>
+				<p>Swift, on piano, gave an emotional rendition of her ballad “Soon You’ll Get Better,” which was originally written during her mother’s battle with cancer.</p>
+				<br>
+				<p>The Rolling Stones, filmed in four separate locations, sang “You Can’t Always Get What You Want,” with Mick Jagger and Keith Richards playing acoustic guitars.</p>
+				<br>
+				<p>“We all appreciate the healthcare workers but never like now,” Winfrey said in a video message. “They truly are the best of us… We need to ensure that governments step up now and provide healthcare workers with the equipment and the funds they need.”</p>
+				<br>
+				<p>Wonder played the late Bill Wither’s classic “Lean on Me,” while McCartney, recalling that his mother was a nurse and midwife, sang “Lady Madonna.”</p>
+				<br>
+				<p>“You know the coronavirus is trouble when a Beatle gets involved,” quipped Kimmel.</p>
+				<br>
+				<p>Earlier on Saturday, pop, classical and rap musicians from the United States, Asia and the Middle East took part in a six-hour livestream that featured Latin star Luis Fonsi, R&B singer Jennifer Hudson, Hong Kong singer Eason Chan, India’s Vishal Mishra and Emirati musician Hussain Al Jassmi.</p>
+				<br>
+				<p>Celebrities called on people to stay at home, wash their hands regularly, practice social distancing and put pressure on their political leaders to introduce widespread testing for the disease.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

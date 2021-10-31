@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Reports Two More COVID-19 Deaths, Taking Toll to Three</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-8420b.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">8, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Two COVID-19 patients died in Myanmar on Wednesday, taking the country’s coronavirus death toll to three.</p>
+				<br>
+				<p>A 47-year-old man who had been treated at Pyay General Hospital in Bago Region since testing positive last week died Wednesday morning, becoming the country’s second COVID-19 fatality.</p>
+				<br>
+				<p>Daw Khin Khin Gyi, director of the Central Contagious Disease Prevention and Eradication Sub-Department at the Ministry of Health and Sports (MOHS), said the cause of death was respiratory failure with septicemia, which is one of the symptoms of coronavirus. The patient was moved to the intensive care unit on Monday after suffering respiratory failure.</p>
+				<br>
+				<p>The man was a township administrator in Pauk Khaung of Bago Region. His wife, 8-year-old daughter, 10-year-old son and 18-year-old niece were also found to be infected last week.</p>
+				<br>
+				<p>The wife worked at an international medical center in Yangon. The man took the couple’s children from their home in Yangon’s Bahan Township to Pauk Khaung after his wife fell ill.</p>
+				<br>
+				<p>The other patient to die on Wednesday was a 63-year-old woman who had diabetes as an underlying illness. She tested positive on April 1 and was being treated at Waibagi Specialist Hospital for Infectious Diseases in Yangon. She died at around 11 a.m.</p>
+				<br>
+				<p>Daw Khin Khin Gyi said the woman died of cardiogenic shock with sepsis, severe pneumonia and cytokine storm syndrome associated with COVID-19 infection.</p>
+				<br>
+				<p>According to the MOHS, the woman had not traveled overseas recently but picked up her son, who returned from Dubai, at Yangon International Airport on March 15. She developed a high fever and fatigue and was admitted to the hospital the next day. She was from Ayeyarwaddy Region’s Yay Kyi Township and resided at a boardinghouse in North Okkalapa Township.</p>
+				<br>
+				<p>The woman was first admitted to a government hospital in North Okkalapa but reportedly did not tell staff there about her son’s recent return from overseas. She was later transferred to Waibagi Hospital, where she was put in the Intensive Care Unit.</p>
+				<br>
+				<p>Myanmar reported its first death from COVID-19 on March 31. The 69-year-old man had been undergoing treatment for stage-4 cancer and died from multiple causes including the coronavirus.</p>
+				<br>
+				<p>According to the MOHS, Myanmar had reported a total of 22 COVID-19 cases as of Tuesday. All 19 surviving patients are in stable condition.</p>
+				<br>
+				<p>As of Monday, 1,340 people had been tested for the coronavirus, with 1,318 testing negative, the MOHS said. From Jan. 31 to April 4, Myanmar quarantined about 160 people at hospitals and nearly 66,500 people at other quarantine centers.</p>
+				<br>
+				<p>Of the 22 positive cases recorded so far, eight were locally transmitted while 14 were imported from France, the US, the UK, Australia, Singapore, Switzerland, South Korea and Thailand, the ministry said.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

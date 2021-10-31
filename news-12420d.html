@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Why coronavirus could be catastrophic for Venezuela</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-12420d.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">12, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p><b>Venezuelan state television usually consists of wall-to-wall coverage of the government's daily achievements, press conferences and rambling speeches by President Nicolás Maduro.</b></p>
+				<br>
+				<p>Folkloric music makes an appearance too but in these times of coronavirus, the lyrics are a little different. Traditional llanero musicians are no longer warbling about Venezuela's grasslands and unrequited love. Instead, they have switched to singing about washing hands, staying at home and donning a mask.</p>
+				<br>
+				<p>"Venezuela, beautiful homeland, stay calm, I beg you," sings Ysidro Salom who is wearing a cowboy hat and strumming a harp. "We know what we have to do because we are blessed. We need to be conscious and cautious to make sure we don't contract coronavirus."</p>
+				<br>
+				<p>This is a country that has been battered by years of economic crisis, hit by hyperinflation and bogged down in political chaos.</p>
+				<br>
+				<p>With a health system that is already on its knees, the arrival of coronavirus is a frightening prospect.</p>
+				<br>
+				<p><b>Quick to lock down</b></p>
+				<br>
+				<p>Within days of Venezuela recording its first cases of Covid-19 in the middle of March, President Maduro ordered a national quarantine to try and stop its spread.</p>
+				<br>
+				<p>"It's one thing for the president to say something, but it's another when it hits you," says 33-year-old Meybis Noguera, a supermarket cashier in Caracas.</p>
+				<br>
+				<p>"Throughout all these years, our health system has been in a terrible state and now with this pandemic, I don't think we're prepared at all."</p>
+				<br>
+				<p>Shortages of hospital and medicine supplies are widespread and there is no doubt the virus will make supply issues worse.</p>
+				<br>
+				<p>"We have about 80 intensive care beds in the country - Venezuela should have about 2,500," says Dr Freddy Pachano, a doctor in the state of Zulia and president of the National Board of Directors for Postgraduate Medicine.</p>
+				<br>
+				<p>"Add that to the basic services we don't have in hospitals like constant electricity supply that ventilators rely upon. All of these elements together create a Dantesque scenario that could see lots of deaths in the country."</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="library/fontawesome/css/all.css"/>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Chilean writer Luis Sepúlveda dies aged 70</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-16420c.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">16, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p><b>Best-selling Chilean writer Luis Sepúlveda has died of Covid-19 in Spain at the age of 70.</b></p>
+				<br>
+				<p>He spent six weeks in hospital in Oviedo after developing symptoms following a trip to a literary festival in Portugal.</p>
+				<br>
+				<p>Sepúlveda became internationally known after the publication of his novel The Old Man Who Read Love Stories in 1988.</p>
+				<br>
+				<p>A socialist, he was imprisoned in Chile under the military rule of Gen Augusto Pinochet before going into exile.</p>
+				<br>
+				<p>He was one of the many left-wing writers, activists and intellectuals targeted by the right-wing general who overthrew socialist President Salvador Allende in 1973.</p>
+				<br>
+				<p>Sepúlveda was jailed in 1973 for treason and spent two-and-a-half years in prison, a period he later wrote about in Madness of Pinochet and other articles.</p>
+				<br>
+				<p>He was freed as a result of pressure from rights group Amnesty International and lived in hiding in Chile for a year before being arrested again and sent into exile.</p>
+				<br>
+				<p>His award-winning The Old Man Who Read Love Stories is based on the time he spent living with the indigenous Shuar people in the Ecuadorean Amazon. It deals with the encroachment of developers, hunters and gold prospectors on the rainforest.</p>
+				<br>
+				<p>The novel was turned into a film of the same name starring Richard Dreyfuss.</p>
+				<br>
+				<p>Sepúlveda also directed films and wrote screenplays and children's books. Many of his readers have taken to social media to say how he inspired them through works such as The Story of A Seagull and The Cat Who Taught Her To Fly.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar’s Military Opens COVID-19 Quarantine Center in Naypyitaw</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-2420c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">2, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar military’s Naypyitaw Command chief, Major General Myint Maw, has said a transit center has been prepared to accommodate up to 15,000 people under COVID-19 quarantine.</p>
+				<br>
+				<p>“If there is a need for the public to quarantine, we have prepared for around 15,000 people at No. 3 Transit Center. We will provide all the necessities, including meals,” the general told reporters in Pyinmana Township on Wednesday.</p>
+				<br>
+				<p>As the Ministry of Health and Sports provides health care, the Tatmadaw [military] is focusing on prevention, raising public coronavirus awareness and making preparations for an emergency.</p>
+				<br>
+				<p>“Like public-spirited organizations and members of the public who are doing what they can, the Tatmadaw is working to help the people,” said Maj-Gen Myint Maw.</p>
+				<br>
+				<p>On Wednesday, a military transit center in Yangon, which had been converted for quarantine, was put into service and received 53 civilians, according to military spokesman Brigadier General Zaw Min Tun.</p>
+				<br>
+				<p>“We started to receive people for quarantine in Yangon. The medical team at Yangon Command is taking responsibility to provide meals and health care for them,” he said.</p>
+				<br>
+				<p>The Office of the Commander-in-Chief of the Defense Services said the transit center in Yangon could care for 2,000 people under quarantine and more than 90 returnees from Thailand and China had arrived by Wednesday.</p>
+				<br>
+				<p>No COVID-19 cases had been reported to the Tatmadaw, but military personnel and their relatives who returned from overseas – totalling 43 people – are being put in quarantine, he said.</p>
+				<br>
+				<p>The government on Monday formed a COVID-19 Control and Emergency Response Committee led by military-appointed First Vice President U Myint Swe and including ministers from the military-controlled defense, border affairs and home affairs ministries. It also includes the civilian ministers of labor, immigration and population, religious affairs and culture, transport and communications, and social welfare, relief and resettlement.</p>
+				<br>
+				<p>Nearly 700 people are being kept in quarantine in Naypyitaw’s hospitals and the Naypyitaw Development Committee Guesthouse.</p>
+				<br>
+				<p>Elsewhere in Myanmar, around 560 people are in quarantine with 16 confirmed cases and one death, the health ministry reported on Tuesday. Worldwide there had been over 940,000 confirmed cases and more than 47,000 deaths by Thursday.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

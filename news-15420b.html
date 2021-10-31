@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Australia's economy faces unprecedented setbacks</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-15420b.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">15, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b></b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The "miracle economy" that avoided recession during the 2007-2008 financial crisis, avoided the worst of the 1997 Asian financial crisis as well as the lancing of the dot.com bubble is in deep trouble.</p>
+				<br>
+				<p>The Black Summer fires were adding to an escalating economic malaise but the coronavirus has inflicted a jolting collapse. In one week about one million Australians became unemployed.</p>
+				<br>
+				<p>Within days the centre-right government had unveiled Australia's biggest ever economic package - A$130bn ($80bn) is to be spent on keeping six million people, or around half the workforce, in jobs.</p>
+				<br>
+				<p>So far, direct government aid to businesses in response to the virus is approaching A$200bn, or about 10% of the nation's income, or GDP. This has never happened before.</p>
+				<br>
+				<p>Tim Harcourt, from the University of New South Wales Business School, says the JobKeeper allowance is a throwback to more collaborative times.</p>
+				<br>
+				<p>"The wage subsidy idea is Australian in the sense that we've got this tradition of the trade unions and the employers working cooperatively with the government. They've been working on this almost as a tripartite approach, which brings us back to the Australia of the '1980s and '1990s," he told the BBC.</p>
+				<br>
+				<p><b>Conservative rethink</b></p>
+				<br>
+				<p>The conservative government is abandoning its economic dogma. Its past preoccupations with budget surpluses are rusted or no more.</p>
+				<br>
+				<p>"It is probably an approach where Australia has dropped its ideology and sought to do whatever it takes to get Australia through the pandemic," added Tim Harcourt.</p>
+				<br>
+				<p>Australia will soon head into winter. The government's mega job saving scheme is an attempt to put the economy into hibernation. It sleeps while the country battles the Covid-19 health crisis and, when the fight is eventually over, companies and their staff can, in theory, spring back into action.</p>
+				<br>
+				<p>"This is similar to the scheme announced in the UK, and is supposed to keep the lines of communication between employers and employees open, allowing for a relatively rapid restoration of activity if and when normal service resumes. This takes some pressure off the welfare system," explained Dr Andrew Grant from the University of Sydney's Discipline of Finance.</p>
+				<br>
+				<p>In recent times large-scale unemployment has not been an Australian affliction, but it is now.</p>
+				<br>
+				<p>The jobless rate is set to double to 10% by mid-year, says the government.</p>
+				<br>
+				<p>There have been long queues outside the government's welfare agency, Centrelink. In the Sydney suburb of Brookvale, they have stretched around the block.</p>
+				<br>
+				<p>"This is my very first visit to a Centrelink office. It is horrible," said Chris Dawson. "I am almost 60 and I have never been unemployed in my life."</p>
+				<br>
+				<p>"I am devastated. We have four adults in our family and three of us are unemployed as of this week," she added.</p>
+				<br>
+				<p>Few sectors will be spared, but the fortunate few will flourish. Supermarkets are recruiting thousands of staff to cope with demand, and alcohol sales are up. A friend wryly observed that "the curve of daytime drinking seems to be rising exponentially"!</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

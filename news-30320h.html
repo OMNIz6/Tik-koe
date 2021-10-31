@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Naypyitaw Health Bosses Hopeful COVID-19 Under Control in Myanmar’s Capital</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-30320h.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">30, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>After the first case of COVID-19 was reported in Naypyitaw on Saturday, three suspected cases were discovered and nearly 500 people are being kept in quarantine, according to the Naypyitaw Health Department.</p>
+				<br>
+				<p>Some 180 people who have returned from Thailand and Malaysia are being kept in quarantine at hospitals in Zabuthiri, Dekkhinathiri, Zayarthiri and Pobbathiri townships, and around 300 more are in the Nay Pyi Taw City Development Committee Guesthouse, according to Dr. Myat Wunna Soe of the Naypyitaw Health Department.</p>
+				<br>
+				<p>The returnees have been quarantined since March 25, he said.</p>
+				<br>
+				<p>“International fights are no longer landing at Naypyitaw Airport. So we are less likely to be affected than Yangon and Mandalay. And the number of those who have returned from overseas is also low compared with other regions and states. I think we will be able to control the situation,” Dr. Myat Wunna Soe told The Irrawaddy on Sunday.</p>
+				<br>
+				<p>Myanmar’s civil aviation authority on Sunday said no international commercial passenger flights will be allowed to land in Myanmar until April 31 to prevent the spread of coronavirus.</p>
+				<br>
+				<p>Dr. Myat Wunna Soe said Naypyitaw Health Department has plans to turn more township hospitals into quarantine centers if necessary.</p>
+				<br>
+				<p>The Naypyitaw authorities on March 26 instructed that karaoke venues and massage parlors in the capital be closed and for restaurants to only offer takeaways. Restaurants along the Yangon-Mandalay Highway have also been ordered to close.</p>
+				<br>
+				<p>The COVID-19 patient in Naypyitaw is a 58-year-old Swiss woman who works for the United Nations. She tested positive for COVID-19 last week and is in intensive care at the 1,000-bed Naypyitaw General Hospital.</p>
+				<br>
+				<p>She flew from Switzerland and arrived in Naypyitaw via Bangkok on March 18. She might have contracted the virus from her father who was suffering from COVID-19. She said she had been isolated within the M Gallery Hotel in Naypyitaw.</p>
+				<br>
+				<p>Passengers on her fight, airport security staff, her taxi driver, M Gallery Hotel staff and other hotel guests will be monitored for two weeks, deputy Naypyitaw mayor U Ye Min Oo told The Irrawaddy.</p>
+				<br>
+				<p>As of Sunday, Myanmar had 10 COVID-19 cases with two new cases in Yangon, according to the Ministry of Health and Sports. One of the new cases is a man who returned from Thailand on March 23.</p>
+				<br>
+				<p>The ministry warned that the country faced a high risk of a “big outbreak” as more than 23,000 migrants had returned from Thailand in the last 10 days.</p>
+				<br>
+				<p>The World Health Organization said on Monday there were more than 638,000 confirmed coronavirus cases in 203 countries and over 30,100 deaths.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

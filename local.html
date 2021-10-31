@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body onresize="responsive_newbox()">
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- local map & news-->
+	<div id="map" class="std-section row">
+		<div class="map-news-section"> 
+			<!-- map -->
+			<div class="map-box-section col-12 col-lg-5">
+				<div class="map-header">
+					<h3>Local Map</h3>
+				</div>
+				<div class="map-note">
+					<p>Please take one region to see news.</p>
+				</div>
+				<div class="map-section">
+					<div id="myanmar">
+					</div>
+				</div>
+			</div>
+			<!-- map end -->
+
+			<!-- news box -->
+			<div  class="news-box-section col-6 d-none d-lg-block">
+
+
+				<div class="news-header" id="news-header">
+					<h3 id="newsHeader"></h3>
+				</div>
+
+
+				<div id="main" class="news-box">
+					
+				</div>
+				
+			</div>
+			<!-- news box end -->
+
+
+			<!-- modal -->
+			<div class="modal" id="modalbox">
+				<div class="modal-dialog">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<div class="news-header" id="news-header">
+								<h3 id="newsHeader"></h3>
+							</div>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						</div>
+
+						<div class="modal-body">
+	
+							<div class="news-box">
+								<div class="news-item"> 
+									<div class="img-header row">
+
+										<div class="news-img">
+											<img src="img/banner1.jpg">
+										</div>
+
+										<div class="news-info">
+											<div class="news-heading"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></div>
+											<div class="news-date">31, 3, 2020</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- modal end -->
+			
+		</div>
+	</div>
+	<!-- local map & news end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script src="js/mm/mapdata.js"></script>
+	<script src="js/mm/countrymap.js"></script>
+
+	<script>
+		
+	  	simplemaps_countrymap.load();
+
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+		
+	</script>
+	
+	
+
+	<script type="text/javascript" src="js/newsdata.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/local.js"></script>
+	
+	
+</body>
+</html>

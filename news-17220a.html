@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Organizers Mulling Scaled-Down Tokyo Marathon Over Coronavirus Fears</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-17220a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">17, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Organizers of the Tokyo Marathon said Monday they will allow only some 200 elite athletes, including wheelchair racers, to take part in the upcoming pre-Olympic event, as Japan steps up efforts to contain the coronavirus outbreak.</p>
+				<br>
+				<p>Roughly 38,000 people who were scheduled to compete on March 1 in the "general entry" category can no longer take part because of the virus outbreak in China and its spread to other countries, which has already affected a number of other sports events.</p>
+				<br>
+				<p>Tokyo Gov. Yuriko Koike expressed sympathy for runners in the general category, who gained entry to the race via lottery, saying the move was necessary for public safety.</p>
+				<br>
+				<p>"To all the general entry runners who felt joy at being selected, we apologize, but these restrictions are unavoidable," Koike said.</p>
+				<br>
+				<p>The organizers mulled several options, including allowing a smaller number of general entry runners, but after going "back and forth two or three times" were ultimately swayed by the increasing number of infection cases, sources said.</p>
+				<br>
+				<p>"It was a very difficult decision, but it was all we could do," race director Tadaaki Hayano said.</p>
+				<br>
+				<p>General runners selected for this year's race will automatically be eligible for the 2021 event, but will need to pay a separate entry fee. Entry fees for this year will not be refunded.</p>
+				<br>
+				<p>The Tokyo Marathon doubles as a qualifier for the 2020 Games, and runners will be chasing the final spot on the men's Olympic marathon team. Japan men's marathon record holder Suguru Osako and past national record holder Yuta Shitara are among invitees to the race's elite category.</p>
+				<br>
+				<p>The elite full marathon field includes 176 runners and 30 wheelchair athletes.</p>
+				<br>
+				<p>With the 2020 Summer Games less than six months away, Tokyo Olympic officials have voiced concerns about how the fast-spreading virus could disrupt the games, which are scheduled from July 24 through Aug. 9.</p>
+				<br>
+				<p>The chaos caused by the coronavirus outbreak has already resulted in a host of sporting events being canceled or rescheduled in China and Japan, but 2020 Games head Yoshiro Mori said last Thursday canceling the Olympics "has not been considered."</p>
+				<br>
+				<p>The coronavirus emerged in the Chinese city of Wuhan in December. The virus had killed more than 1,700 people in China and infected more than 70,000 people as of Monday.</p>
+				<br>
+				<p>Japan had its first coronavirus death last Thursday and as of Monday night 520 people had been confirmed in the country as infected, including 454 who had been quarantined on a cruise ship.</p>
+				<br>
+				<p>Last month, Tokyo Marathon organizers set up a panel of medical professionals and specialists to assess the race's response to the coronavirus crisis and there were preventative safety measures, including the distribution of antibacterial wet wipes and surgical masks, announced.</p>
+				<br>
+				<p>Tokyo Marathon organizers had previously asked runners residing in China to forgo this year's race, saying they will be guaranteed entry next year and their registration fees for the 2021 event will be waived.</p>
+				<br>
+				<p>The largest marathon in Asia is scheduled to start with the wheelchair marathon and wheelchair 10-km race at 9:05 a.m. The 42.195-km races start at the Tokyo metropolitan government building in Shinjuku and finish at Tokyo Station.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

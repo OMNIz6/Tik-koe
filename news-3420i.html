@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Health Workers Sing to Lift Spirits of People in Quarantine</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-3420i.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">3, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Medical students, health care workers and volunteers at Myanmar’s COVID-19 quarantine centers are seeking ways to entertain people in quarantine and keep morale up while they are isolated from their families and loved ones</p>
+				<br>
+				<p>Ko Thein Htein, a volunteer in a housing complex-turned-quarantine center in Yangon’s Hlaing Township, livestreamed a group of medical student volunteers playing guitar and singing popular songs to lift the spirits of those being quarantined on Thursday night. The group entertained people from the courtyards of the complex. As they played songs dedicated to Myanmar’s traditional Thingyan New Year’s Water Festival, which begins on April 13, some female medical students joined them to perform a traditional dance.</p>
+				<br>
+				<p>Many of the people in quarantine came out onto the center’s veranda and sang along with the songs.</p>
+				<br>
+				<p>“We were happy to sing the songs together. In that moment, I was cheerful and fresh,” wrote Aung Htet, one of the people quarantined at the center, on Facebook, sharing a video of the singing along with a note thanking the medical students and volunteers.</p>
+				<br>
+				<p>Around 334 people who returned from abroad are in quarantine at the center in Hlaing as they wait out the 14-day incubation period of the coronavirus. About 80 volunteers, including doctors and non-medical volunteers, are facilitating their stay.</p>
+				<br>
+				<p>Social media users have also shared videos and pictures of volunteers cheering at quarantine centers in Ayeyarwady Region and Mon and Shan states, where people who recently returned from Thailand are quarantined.</p>
+				<br>
+				<p>The warmth and comfort of the story offered a needed break to netizens compared to the news of losses around the world due to the COVID-19 crisis.</p>
+				<br>
+				<p>Zaw Thet Htwe, a supervisor of the Hlaing quarantine center, said the center has been expanded to be able to accept an additional 270 people, according to state-run newspaper The Mirror.</p>
+				<br>
+				<p>But he added that health workers and volunteers at the center will need personal protective equipment (PPE) in the coming weeks, as they need to be well-equipped to help quarantined people with everyday tasks, from delivering lunch and dinner to each room to collecting waste.</p>
+				<br>
+				<p>Myanmar had confirmed 20 COVID-19 cases as of Thursday night. One 69-year-old patient who had been undergoing treatment for stage four cancer and tested positive for COVID-19 died on Tuesday.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

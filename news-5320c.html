@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Korean Air Suspends Direct Flights Between Seoul, Yangon Due to Coronavirus</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-5320c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">5, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Korean Air, a major South Korean airline, has suspended direct flights from Seoul to Yangon, Myanmar’s commercial hub, amid the rapid spread of coronavirus (COVID-19) in South Korea.</p>
+				<br>
+				<p>On Wednesday, Korean Air announced that it would be suspending direct flights to Yangon from Incheon International Airport near Seoul from March 5 to April 25 due to the outbreak. The total number of coronavirus infections in South Korea reached 5,766 on Thursday, killing 35 people, with most infections reported in the southern city of Daegu, the epicenter of the Korean outbreak.</p>
+				<br>
+				<p>Korean Air urged passengers to contact the airline’s service centers or local travel agencies for further details, including information on itinerary changes and refunds.</p>
+				<br>
+				<p>The carrier said that on Feb. 28, Myanmar officials announced that arriving travelers who had visited or stayed in Daegu within the past 14 days would be quarantined at a designated hospital for 14 days.</p>
+				<br>
+				<p>The suspension of flights follows an initial reduction in flights between Incheon and Yangon to four times a week from March 3. On Feb. 25, the airline announced that a flight attendant had tested positive for COVID-19, but did not reveal the routes or flights on which the infected cabin crew member had flown.</p>
+				<br>
+				<p>Myanmar health officials have tested at least 45 people for possible coronavirus infections since January, with none testing positive, according to the Ministry of Health and Sports (MOHS).</p>
+				<br>
+				<p>The Department of Civil Aviation (DCA) has instructed all international airlines to have passengers fill out health declaration forms, as per the instructions of the World Health Organization and the International Civil Aviation Organization.</p>
+				<br>
+				<p>The DCA has not placed restrictions on airlines flying to Myanmar from other countries, including China, where the coronavirus originated. However, the department has ordered Myanmar National Airlines and Myanmar Airways International to suspend their services to China to prevent the outbreak from spreading.</p>
+				<br>
+				<p>Last week, the Yangon port refused entry to a tourist cruise ship that has been turned away by several countries due to the presence of confirmed coronavirus cases on board.</p>
+				<br>
+				<p>In late February, the MOHS warned that Myanmar remained at risk of an outbreak of coronavirus and advised people to avoid mass gatherings as much as possible.</p>
+				<br>
+				<p>The disease has killed more than 3,000 people in China, with the total number of confirmed infections there reaching 80,409 as of Thursday afternoon, according to Chinese health authorities.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

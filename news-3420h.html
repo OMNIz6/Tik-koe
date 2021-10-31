@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Has Run Over 1,000 COVID-19 Tests; 20 Turned Out Positive</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-3420h.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">3, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar had tested a total of 1,102 people for COVID-19 as of Thursday, 20 of whom tested positive, according to the health ministry.</p>
+				<br>
+				<p>Dr. Thar Tun Kyaw, a permanent secretary of the Ministry of Health and Sports (MOHS) told The Irrawaddy on Friday that “from January to April 2, 1,082 out of 1,102 people have tested negative using the real time PCR [polymerase chain reaction] testing method.”</p>
+				<br>
+				<p>Myanmar has seen one death from COVID-19 and two of the confirmed cases are children—ages 8 and 10.</p>
+				<br>
+				<p>According to the World Health Organization (WHO), as of Thursday, nearly 900,000 people are infected with the coronavirus and more than 45,000 have died globally.</p>
+				<br>
+				<p>The Myanmar government is preparing for a potentially large outbreak and has put community quarantine measures in place to contain the spread of the coronavirus.</p>
+				<br>
+				<p>The MOHS is planning to open a second laboratory for COVID-19 testing in Mandalay next week.</p>
+				<br>
+				<p>Dr. Thar Tun Kyaw said the ministry has enough medical staff and equipment but the opening of the new testing lab was delayed due to the specific requirements for the lab, as normal laboratories cannot test for the virus.</p>
+				<br>
+				<p>Myanmar is currently performing COVID-19 tests at its National Health Laboratory in Yangon. Until early February, Myanmar could not perform its own tests and was sending nasal swabs from suspected coronavirus cases to the WHO reference lab in Thailand. Labs performing COVID-19 tests must adhere to strict biosafety standards and MOHS has talked with the WHO about opening more testing labs.</p>
+				<br>
+				<p>“We need the laboratory that has at least biosafety level 3, as this coronavirus can be transmitted quickly. We are preparing the existing laboratory [in Mandalay] to meet the health specifications, so there has been some delay,” Dr. Thar Tun Kyaw explained.</p>
+				<br>
+				<p>The government also plans to use four other public health laboratories, which currently run tests for tuberculosis patients, for coronavirus testing when the number of suspected patients has increased, according to Dr. Thar Tun Kyaw.</p>
+				<br>
+				<p>Since a couple of people who returned across the border from Thailand have tested positive for COVID-19, MOHS has warned the migrant returnees to follow health guidelines if they feel a fever, cough or sore throat.</p>
+				<br>
+				<p>On Wednesday, the government urged Myanmar citizens working in neighboring countries to wait two weeks before returning home as the government is preparing quarantine centers. The government requires anyone who crosses into the country over a land border to stay in facility quarantine for 14 days.</p>
+				<br>
+				<p>The ministry designated specific hospitals across the country to prepare for treating COVID-19, telling them to prepare intensive care units, isolation beds and equipment.</p>
+				<br>
+				<p> In Yangon, Waibargi Specialist Hospital is a designated hospital and currently treating nine COVID-19 patients in its isolation ward and two confirmed patients in its intensive care unit. Chin State’s Tedim Hospital, Mandalay’s Kandawnadi Hospital, Naypyitaw Hospital and Shan State’s Lashio General Hospital are each treating one COVID-19 patient. Pyay General Hospital in Bago is treating four confirmed patients.</p>
+				<br>
+				<p>“We are not worried as we have prepared hospitals across the country with intensive care units and isolation areas for COVID-19 patients,” Dr. Thar Tun Kyaw said.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

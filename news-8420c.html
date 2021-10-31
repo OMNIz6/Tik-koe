@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Scraps Restrictions on Movement in Two Regions</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-8420c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">8, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>One state and one regional government in Myanmar have already abandoned the restrictions they recently ordered on residents’ movements, originally aimed at limiting the spread of the coronavirus. Some residents had criticized the restrictions, saying they would harm local businesses and cause serious panic.</p>
+				<br>
+				<p>On Tuesday, one day after announcing the orders, the governments of Kayah State and Sagaing Region said they will drop the restrictions. The Kayah government said it wants to avoid spreading panic or harming the state socially and economically.</p>
+				<br>
+				<p>U Aung Myo, an Upper House lawmaker for Sagaing, confirmed to The Irrawaddy that the regional government revised the order.</p>
+				<br>
+				<p>“The previous order was causing a controversy among residents. It could have created a difficult situation for residents if they had to observe recommendations from township officials every time they have to travel,” said U Aung Myo. “This is the main reason that the regional government decided to revise it.”</p>
+				<br>
+				<p>Both governments are still urging residents to stay at home as much as possible. They also requested that residents follow instructions on COVID-19 from the National-Level COVID-19 Prevention, Control and Treatment Committee and the Ministry of Health and Sports (MOHS).</p>
+				<br>
+				<p>In its previous statement, the Kayah State government ordered all hotels, other accommodation, construction firms and clothing shops to close from April 8 until April 23. It also banned any vehicles with more than seven people from traveling on highways.</p>
+				<br>
+				<p>The Sagaing Region government also ordered residents not to travel except for funerals and health reasons. If residents must travel, they were going to be required to obtain a letter of recommendation from their township’s COVID-19 Protection, Control and Treatment Committee.</p>
+				<br>
+				<p>The Sagaing government also ordered all hotels, other accommodation, playgrounds and parks to close from April 7 until April 21. It also threatened legal action against anyone who does not follow instructions on COVID-19.</p>
+				<br>
+				<p>It has been more than two weeks since Myanmar confirmed its first COVID-19 case. As of Wednesday afternoon, the country had reported a total of 22 cases, including three deaths.</p>
+				<br>
+				<p>The government is attempting to persuade citizens that staying at home in April is the key to defeating COVID-19 in Myanmar. The government has said that what happens in April might decide the magnitude of the coronavirus outbreak in the country.</p>
+				<br>
+				<p>Last week, the Yangon government told all residents to observe a strict 10-day “stay home” period from April 10 to April 19, except for people involved in COVID-19 prevention, control and treatment activities.</p>
+				<br>
+				<p>On Saturday, Myanmar State Counselor Daw Aung San Suu Kyi also urged citizens to stay at home as much as possible.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

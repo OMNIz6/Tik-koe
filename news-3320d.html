@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Military Postpones Armed Forces Day Parade Over Coronavirus</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-3320d.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">3, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The Myanmar military has announced that it will postpone Armed Forces Day celebrations until further notice due to the coronavirus outbreak, which the World Health Organization (WHO) recently declared a global health emergency.</p>
+				<br>
+				<p>Armed Forces Day, which falls annually on March 27, commemorates Myanmar’s armed struggle against the Japanese fascists in 1945. This year’s celebration is slated to be larger than normal in honor of the holiday’s 75th anniversary.</p>
+				<br>
+				<p>The Myanmar military said it would plan the 75th anniversary “diamond jubilee” celebrations only after the WHO and international community declare that the disease is under control.</p>
+				<br>
+				<p>There have been no confirmed COVID-19 cases reported in Myanmar.</p>
+				<br>
+				<p>“Large numbers of cases were reported at the same time in South Korea, Iran and Italy. Myanmar faces the same risks, regardless of time and place,” said a statement from the Myanmar military.</p>
+				<br>
+				<p>On Friday, the Ministry of Health declared the coronavirus an “epidemic or notifiable disease” under the Prevention and Control of Communicable Diseases Law.</p>
+				<br>
+				<p>The law requires anyone who falls sick with the virus to report to the authorities. Failure to do so carries a punishment of up to a month in prison or a fine of 30,000 kyats (US$21). The relatives and employer of someone with symptoms are also required to report immediately to their nearest clinic or hospital.</p>
+				<br>
+				<p>The ministry also advised people to avoid mass gatherings.</p>
+				<br>
+				<p>Every year, the military marks Armed Forces Day with a parade in Naypyitaw. The military chief, senior military officers, foreign military attaches and their families all attend the event and hundreds of military personnel take part in the parade.</p>
+				<br>
+				<p>The Myanmar military previously said that it would invite former military chiefs to the diamond jubilee event, including Senior General Than Shwe, who has not appeared in public for years. Former Commander-in-Chief and National League for Democracy Patron U Tin Oo was also invited to attend the event.</p>
+				<br>
+				<p>Meanwhile, the Public Health Department has denied the cruise ship MV Silver Spirit entry into Myanmar as part of coronavirus prevention measures. The department said that it made the decision due to concerns that the ship, which departed from Singapore, might have entered countries where the virus is present.</p>
+				<br>
+				<p>Worldwide, the death toll from COVID-19 has reached over 3,000, most of them in China, and the number of cases has passed 90,000, spread across about 70 countries.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>South Korea on Alert After Surge in Coronavirus Cases</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-24220a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">24, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>South Korea reported 161 new cases of the coronavirus, bringing the total number of infected patients in the country to 763, health authorities said on Monday, a day after the government raised its infectious disease alert to its highest level.</p>
+				<br>
+				<p>Of the new cases, 115 were linked to a church in the southeastern city of Daegu after a 61-year-old woman known as “Patient 31” who attended services there tested positive, according to the Korea Centers for Disease Control and Prevention (KCDC).</p>
+				<br>
+				<p>KCDC also reported a seventh death from the virus, a 62-year-old man from a hospital in Cheongdo, a county that saw surges in confirmed cases along with nearby Daegu in recent weeks.</p>
+				<br>
+				<p>“If we cannot block the spread in the Daegu region in an effective way, there are high possibilities it will lead to a nationwide transmission,” Vice Health Minister Kim Kang-lip told a regular briefing.</p>
+				<br>
+				<p>While most of the new cases were traced to Daegu, almost all major cities and provinces reported some infections.</p>
+				<br>
+				<p>Authorities are still investigating the exact cause of the new outbreak, with Patient 31 having no recent record of overseas travel.</p>
+				<br>
+				<p>Kim said the government has taken self-quarantine measures and is conducting tests on about 9,500 people who took part in services at a Daegu branch of the Shincheonji Church of Jesus, also known as the Temple of the Tabernacle of the Testimony, attended by Patient 31.</p>
+				<br>
+				<p>South Korea imposed its highest infectious disease alert on Sunday, vowing to limit public activities and provide extra resources to Daegu and Cheongdo, which were designated “special care zones” last week.</p>
+				<br>
+				<p>In Daegu and elsewhere, citizens flocked to large supermarkets and pharmacies to buy surgical masks and supplies. Local media photos showed hundreds of people lining up in front of E-Mart stores in Daegu starting as early as 8 a.m.</p>
+				<br>
+				<p>A series of political and cultural events for this week has been canceled, while the Culture Ministry said on Monday a total of 24 national museums and libraries will temporarily close.</p>
+				<br>
+				<p>The National Assembly called off a government questioning session slated for Thursday afternoon as at least three lawmakers underwent a check after coming in contact with an education official who tested positive.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Philippines Extends Capital's Coronavirus Lockdown to May 15</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-24420a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">24, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Philippine President Rodrigo Duterte has extended until May 15 a lockdown in the capital Manila, his spokesman said on Friday, stretching to eight weeks one of the world’s strictest community quarantines to curb coronavirus infections.</p>
+				<br>
+				<p>The measures will be expanded to other regions with big outbreaks but modified in lower-risk areas, which would see a partial resumption of work, transport and commerce, Harry Roque told reporters.</p>
+				<br>
+				<p>Television broadcast images on Friday of a crisis panel meeting where Duterte had made the decision late the previous day. He even offered a reward of 50 million pesos (US$986,000 or 1.4 billion kyats) to any Filipino who could create a vaccine.</p>
+				<br>
+				<p>“We are all at risk, but do not increase the odds or chances of getting it,” he said, warning against complacency.</p>
+				<br>
+				<p>Manila, a heavily congested city of at least 13 million people and millions more informal settlers, accounts for more than two-thirds of the country’s 6,981 infections and 462 deaths.</p>
+				<br>
+				<p>After China and Italy, but just a few days before Spain, the Philippines became the third country to order tight lockdown and home quarantine, even though it had only a fraction of the infections and deaths of nations that took similar measures.</p>
+				<br>
+				<p>The Philippines introduced curbs on immigration, travel, commerce, gatherings on March 12, five days after the first case of domestic transmission, and expanded them on March 16. It is closed to all except repatriated Filipinos.</p>
+				<br>
+				<p>The approach aims to keep overstretched health services from being overwhelmed. It created a window to ramp up testing, which started slowly and gained ground in recent weeks.</p>
+				<br>
+				<p>But with just 72,000 tests, the government last week estimated it had managed to track only a quarter of projected infections. The Health Ministry has said it is too early to say if the infection curve had been flattened.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

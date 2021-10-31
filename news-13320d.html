@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>After Fleeing Abuse, Trafficked 'Brides' Stuck in China Due to Coronavirus</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-13320d.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">13, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Coronavirus travel restrictions have forced anti-trafficking groups to suspend rescue operations of Vietnamese and Cambodian “brides” from China, with some now in hiding after escaping the homes of men holding them against their will.</p>
+				<br>
+				<p>Over the past decade, tens of thousands of Southeast Asian women have been lured to China by criminal networks promising lucrative jobs, only to be sold as brides—some to abusive men—as China grapples with a gender imbalance.</p>
+				<br>
+				<p>Charities in Vietnam and Cambodia said some women who fled this year have been detained and shut off from communication, while others who are “not under immediate threat of being killed” have been advised to sit tight.</p>
+				<br>
+				<p>“Some say the husband is mentally ill, they’re being beaten, maybe prostituted to the neighbors, their lives are in immediate danger at this point,” said Michael Brosowski, head of Hanoi-based Blue Dragon Children’s Foundation.</p>
+				<br>
+				<p>“They say they have to go, they have to go now. All we can do is advise them on a safe place to hide.”</p>
+				<br>
+				<p>Blue Dragon rescued one woman every three days on average from China in 2019, but was forced to freeze operations in late January as coronavirus travel restrictions took hold.</p>
+				<br>
+				<p>“Getting to remote places, it’s just not possible now—and even if you could, the borders are closed,” Brosowski told the Thomson Reuters Foundation.</p>
+				<br>
+				<p>While Blue Dragon remains in touch with 27 women who have called for help in 2020, Phnom Penh-based anti-trafficking charity Chab Dai said it has lost contact with some who fled their abusers amid the coronavirus outbreak.</p>
+				<br>
+				<p>Chab Dai program manager Chan Saron said in early January that one woman reported being transferred to “government-controlled detention” and held “under very strict conditions” before contact was lost.</p>
+				<br>
+				<p>“According to Chinese law, survivors are often treated as illegal migrants,” Saron said. “We receive dozens of cases like this but there could be many more.”</p>
+				<br>
+				<p>A Chinese assistant to the Cambodian consul in Shanghai said little could be done to assist women who had escaped their captors and were now uncontactable.</p>
+				<br>
+				<p>“If we can get in touch with the women, we will find a way to help,” she said, giving her name only as Hayley. “But with no information, how could we find them?”</p>
+				<br>
+				<p>Authorities in Cambodia, Vietnam and China have in recent years tried to combat the trafficking of “brides” but campaigners fear a ban on marriage broker services has driven the trend further underground and put women at higher risk.</p>
+				<br>
+				<p>Chinese men typically pay brokers between $10,000 and $20,000 for a foreign wife, a 2016 United Nations report said.</p>
+				<br>
+				<p>Criminal gangs scour poor regions for young women and pitch a dream life in China, where there is a surplus of some 40 million men—a legacy of Beijing’s one-child policy.</p>
+				<br>
+				<p>Targets are coaxed by the promise of a life of relative luxury in China, and while some do marry happily and send money home to their families, others face sexual abuse, violence and exploitation.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Citizens Give Up Power Subsidy to Aid COVID-19 Fight</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-8420i.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">8, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>A government initiative to encourage people to stay at home amid the COVID-19 outbreak by helping them pay their power bills has prompted a heartening response from the Myanmar public. To show their appreciation, many people are choosing to donate the amount they would have saved on electricity to the government to help fund its fight against the virus.</p>
+				<br>
+				<p>As of Wednesday, Myanmar had 22 confirmed COVID-19 cases with three deaths.</p>
+				<br>
+				<p>On Monday, the government of the ruling National League for Democracy, led by State Counselor Daw Aung San Suu Kyi, announced it would provide every household in the country with 150 units of free electricity for domestic use until the end of April. The move is designed to encourage people to stay at home.</p>
+				<br>
+				<p>In other words, you can expect a reduction of 11,500 kyats (about US$8) in your electricity bill this month.</p>
+				<br>
+				<p>Less than 24 hours after the announcement, the bank accounts of the COVID-19 National Centers for Disease Control and Prevention were bombarded with transactions as Myanmar people individually transferred that amount into the four accounts set up to accept donations for the fight against the disease.</p>
+				<br>
+				<p>Many posted screenshots of their money transfers on Facebook, while challenging their friends to follow suit.</p>
+				<br>
+				<p>While it’s impossible to trace the exact number of people who made the contribution, the responses to one Irrawaddy reporter’s Facebook page alone showed that nearly 200 people had joined the activity in the past 24 hours.</p>
+				<br>
+				<p>The flood of individual donations from Myanmar people prompted the country’s de facto leader, Daw Aung San Suu Kyi, to voice her appreciation.</p>
+				<br>
+				<p>“I really thank you for your support in this time of need,” she told members of the public during a videoconference with officials on Wednesday.</p>
+				<br>
+				<p>“That shows our people’s benevolence. It’s an act of unity. We have to use this to overcome the COVID-19 challenge,” she said.</p>
+				<br>
+				<p>The government’s electricity subsidy scheme was one of several moves that have touched people across the country. On Monday, a government announcement that it will provide basic food to the poor in the country for 10 days during a nationwide stay home campaign due to come into effect late this week was widely applauded. The Myanmar public has never experienced such a people-centered approach before—or at least not for the past four decades. It also serves to demonstrate that in Myanmar, when you care about people, they will respond heartily to you in the same way.</p>
+				<br>
+				<p>“How marvelous!” one Facebook user wrote, posting screenshots of his money transfers.</p>
+				<br>
+				<p>He continued by questioning whether anyone would turn down such an opportunity.</p>
+				<br>
+				<p>“They [the government] neither need to ask for it at gunpoint nor brandish a sword. No law needed. That’s what the government and people are doing in unison,” said he, referring to people’s voluntary money transfers to support the government in its fight against the virus.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

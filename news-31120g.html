@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Suspected Chinese Coronavirus Patient in Stable Condition: Myanmar Hospital</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-31120g.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">31, 1, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>A 56-year-old Chinese man who was identified as a possible carrier of the coronavirus upon his arrival at Yangon International Airport on Friday is in stable condition, according to the superintendent of a communicable disease hospital where the patient is now under observation.</p>
+				<br>
+				<p>Two Myanmar nationals who were on the same flight as the man are being quarantined at the same hospital, Dr. Aye Aye Aung, the head of the Waibagi Infectious Diseases Hospital, told the media on Friday afternoon.</p>
+				<br>
+				<p>They were among 79 passengers—72 from China, two from Myanmar, and the rest from the US, France and Colombia—on a China Southern Airlines flight that arrived from Guangzhou on Friday morning. The plane departed Myanmar at noon with all the passengers still on board, leaving only the Chinese patient and two Myanmar citizens behind, Civil Aviation Department General Manager U Soe Paing told The Irrawaddy.</p>
+				<br>
+				<p>“All of them have left. And 30 Chinese travelers who have been in Myanmar joined them,” he said.</p>
+				<br>
+				<p>The hospital superintendent told the media that the Chinese man, who is from Hunan Province, had experienced a fever for one day prior to his arrival, and still had a sore throat. He is now confined to an isolation ward as a person “under investigation.”</p>
+				<br>
+				<p>“Now he has no fever. His condition is fine,” she said.</p>
+				<br>
+				<p>The doctor said the two Myanmar men also seemed fine and didn’t even have a fever.</p>
+				<br>
+				<p><“But they have to be quarantined as they were on board with the Chinese patient,” she explained./p>
+				<br>
+				<p>Dr. Aye Aye Aung said blood samples and throat swabs from the Chinese man were sent to the National Health Laboratory, which will forward them to neighboring Thailand to determine whether the patient has the virus, as Myanmar does not currently have a lab equipped to conduct the test.</p>
+				<br>
+				<p>Since it first surfaced in Wuhan in China’s Hubei Province, the flu has killed 213 people, with over 8,000 confirmed cases, Chinese health authorities said on Thursday.</p>
+				<br>
+				<p>As 18 countries in addition to China have reported coronavirus infections—including Thailand, India, Singapore, Malaysia, South Korea, Vietnam, France, Australia and the US—the World Health Organization has declared the coronavirus outbreak to be a global health emergency. Outside China, there have been eight cases of human-to-human transmission reported, in Germany, Japan, Vietnam and the US.</p>
+				<br>
+				<p>On Friday, Myanmar’s President announced the formation of a national-level committee to tackle the coronavirus. Chaired by Union ministers, it was established to enable a quick reaction and coordinate the responses of ministries and departments if the virus is found in the country.</p>
+				<br>
+				<p>According to the Myanmar government’s announcements so far, the country is free of coronavirus infections.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

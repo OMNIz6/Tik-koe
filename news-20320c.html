@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Combating Fake News in the Time of Coronavirus in Myanmar</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-20320c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">20, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>NAN LWIN</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Since the COVID-19 outbreak began in China’s Wuhan Province, social media has spawned countless fake news stories and hoaxes in Myanmar, including promises of false cures, that have caused panic among the public.</p>
+				<br>
+				<p>As a countermeasure, Myanmar’s Ministry of Health and Sports (MOHS) formed a team in early January to give the public timely information about the global coronavirus pandemic, including the latest data and updates on the exact number of suspected cases and laboratory results, in collaboration with state and regional governments. The MOHS team has launched a website with videos about the virus as part of their effort to raise public awareness on how to stay safe—for both medical staff and the public—and also provide do’s and don’ts from the World Health Organization (WHO).</p>
+				<br>
+				<p>The Irrawaddy spoke to MOHS Assistant Director Dr. Htoo Myint Swe, who is responsible for the public awareness information team, about the virus and how the ministry is providing information to the public and fighting fake news on social media and online platforms.</p>
+				<br>
+				<p><b>Nan Lwin: We have seen countless fake news stories, misinformation and disinformation on Facebook, especially about COVID-19. How does the MOHS work to fight fake news on online platforms?</b></p>
+				<br>
+				<p><b>Dr. Htoo Myint Swe: </b>The most important thing is that when you hear a rumor, you must check the MOHS official website and Facebook page. When it comes to fighting fake news, our team has a responsibility to give the public real information. We have to act as a watchdog for all information related to COVID-19 on social media among Myanmar users.</p>
+				<br>
+				<p>Our team includes officials from the CDC [Myanmar National Center of Disease Control], public health and electronic health system officials, and other officers who are working to prevent and fight COVID-19. We also coordinate with other related departments to distinguish between real news and fake news.</p>
+				<br>
+				<p>We have to respond immediately, as soon as fake news has spread. Recently, everyone began to panic after a rumor spread on Facebook that one patient [in Myanmar] died of COVID-19. We had to respond immediately—it was totally fake news.</p>
+				<br>
+				<p>Many people have been sharing misinformation: that people need to drink hot water to prevent COVID-19 and also that eating ice cream could cause the disease. People think that those instructions came from UNICEF. So we had to discuss with officials from UNICEF in Myanmar and explain to the public that this is not right.</p>
+				<br>
+				<p>Now, we are also collaborating with the Ministry of Transport and Communications to track down people who are spreading fake news. We also share information with each other. Recently, our ministry also issued a warning that we will take action against people who spread fake news on social media.</p>
+				<br>
+				<p><b>NL: What kind of fake news stories have people been taking seriously?</b></p>
+				<br>
+				<p><b>HMS:  </b>We watch carefully and take it seriously, especially fake information that has caused a serious panic. Recently, panic buying has started across Yangon after a fake voice recording circulated on Facebook. They used both a woman’s and a man’s voices, pretending to be government officials saying that there are many people infected with COVID-19 in Yangon. Moreover, we found out that many pages on social media are provoking panic buying and fearmongering among the public.</p>
+				<br>
+				<p>Recently, social media users are helping our work to fight fake news and our public awareness campaign. Thousands of social media users made a group and a network to serve as watchdogs for fake news on social media. They also report it to Facebook as soon as they see the fake news, misinformation or disinformation. We are also connected with that network to make our work more effective.</p>
+				<br>
+				<p><b>NL: How does Facebook’s Myanmar team collaborate with MOHS?</b></p>
+				<br>
+				<p><b>HMS: </b>Facebook already has a function to report for controversial issues. When we find out about fake news, we report it to [Facebook] to check it carefully and to take it down. But they don’t take down every post that we report. They only take down posts when they don’t follow their community standards.</p>
+				<br>
+				<p><b>NL: Why is it important to fight fake news in the time of coronavirus?</b></p>
+				<br>
+				<p><b>HMS: </b>It is very crucial to fight fake news in the time of coronavirus. A piece of fake news, a photo or a status could easily provoke the public to panic. We are all together during this critical time. We need to unify to fight together. Fake news could lead to instability in the country. The result will be bad for every citizen in this country.</p>
+				<br>
+				<p>I would like to advise all social media users to think carefully before they share something on Facebook. Recently, we found out that some websites have been sharing disinformation about the virus, like how many have died in Myanmar due to COVID-19. Many people are sharing it without knowing it is a clickbait website.</p>
+				<br>
+				<p>However, we are facing challenges in trying to take down those kinds of websites. Also, some users are sharing posts that mix factual and fake information. These posts come with the UNICEF logo to get more attention, so we have to check with UNICEF about which information is right or wrong. Then we still have to inform people about the truth.</p>
+				<br>
+				<p>I would like to advise people to believe the statements from the MOHS official website and Facebook. The WHO declared the coronavirus outbreak to be a global pandemic. Even though we have no cases so far, we need to prepare to fight the disease together.</p>
+				<br>
+				<p><b>NL: Currently, Myanmar has tested nearly 150 people for possible virus infection. But Myanmar has not yet seen a single confirmed case of the coronavirus so far. Some people wonder if the virus is going undetected or the government is covering it up. What would you want to say to them, as an official from MOHS?</b></p>
+				<br>
+				<p><b>HMS: </b>No, we don’t…. We are not covering up anything. This is absolutely not true. COVID-19 is not the kind of disease we could cover up. Nowadays, everyone has a phone and internet access. We could not hide anything. Now, everybody knows the latest formation as soon as we find out about a suspected patient in the country, including the [test] results. I would like to tell the public not to worry—we won’t be covering anything up. We will give timely and correct information to the public on everything related to COVID-19.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

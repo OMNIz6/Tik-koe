@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar Says Factories Must Take COVID-19 Precautions Before They Reopen</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-20420h.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">20, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The Myanmar government will allow only factories that have set up preventive measure to combat COVID-19 to resume operation on April 30, according to the Ministry of Labor, Immigration and Population.</p>
+				<br>
+				<p>On Sunday, the Ministry of Labor issued an order saying that the country’s factories would be permitted to reopen after they have set up COVID-19 preventive measures in line with the instructions of the Ministry of Health and Sports (MOHS).</p>
+				<br>
+				<p>Factories stopped operations from April 12-19 for the Thingyan New Year public holidays and the government has currently ordered all factories to remain closed for 10 more days until April 30.</p>
+				<br>
+				<p>The health and labor ministries say they will inspect factories to assess whether they have adopted measures to prevent the spread of COVID-19.</p>
+				<br>
+				<p>However, factory workers told The Irrawaddy on Monday that many factories had resumed operation after Thingyan, saying that they haven’t received the official order from the Labor Ministry.</p>
+				<br>
+				<p>U Nyunt Win, director general of the Factories and General Labor Laws Inspection Department at the Labor Ministry, told The Irrawaddy that the ministry has officially announced the order and that it will not send individual orders to each factory.</p>
+				<br>
+				<p>“To be frank, we already instructed factories to stop operations. Actions will be taken if they failed to obey the order,” said U Nyunt Win on Monday.</p>
+				<br>
+				<p>MOHS has instructed all factory employers to set up temperature checks and to not allow in any workers who have a fever.</p>
+				<br>
+				<p>MOHS also told employers to ensure they have enough supplies for workers to rinse their hands and to arrange social distancing practices in the workplace to avoid crowded working conditions.</p>
+				<br>
+				<p>MOHS also instructed factories to use pamphlets or an intercom system to communicate with workers and to avoid using large gatherings or meetings to share information with workers about COVID-19.</p>
+				<br>
+				<p>The ministry told factory workers to avoid crowded areas and to report to the nearest health care center if they feel any symptoms associated with COVID-19, including coughing, difficulty breathing, a fever and weakness.</p>
+				<br>
+				<p>According to the Union of Myanmar Federation of Chambers of Commerce and Industry (UMFCCI), many factories have already set up preventative measure for COVID-19 but they are now forced suspend operations due to the order.</p>
+				<br>
+				<p>The Labor Ministry said in its announcement that they will first inspect pharmaceutical factories, followed by food-stuff factories and then any factories that have already set up preventative measures and notify the ministry they are ready to resume operation. Any factories that employ more than 1,000 workers will be inspected later in the process.</p>
+				<br>
+				<p>U Nyunt Win said that they will try to finish their inspections within 10 days.</p>
+				<br>
+				<p>Recent statistics on the total number of factories and workers are not available at the moment, but in Yangon alone, there are 680,000 workers at 6,632 factories, according to the Yangon regional government.</p>
+				<br>
+				<p>As of Sunday, Myanmar had reported 111 COVID-19 cases, including five deaths and seven people who had recovered from the virus.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: Ireland bans major mass gatherings until autumn</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-21420k.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">21, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Major public gatherings of more than 5,000 people have been banned in the Republic of Ireland until at least September due to the Covid-19 pandemic.</p>
+				<br>
+				<p>It means no major sporting fixtures or concerts will take place in the country this summer; large gatherings have been restricted since 24 March.</p>
+				<br>
+				<p>The government said local authorities had been advised not to consider licences for any such major events.</p>
+				<br>
+				<p>It confirmed 44 more coronavirus-linked deaths, bringing the total to 730.</p>
+				<br>
+				<p>Some 388 new cases of the disease have also been confirmed across the Republic of Ireland, bringing the total number of cases to 16,040.</p>
+				<br>
+				<p>The advice to ban major events will be "kept under review" in line with public health advice on mass gatherings, the government announced on Tuesday; further health advice on lockdown restrictions will be updated before 5 May.</p>
+				<br>
+				<p>It comes after the country's finance minister said Irish GDP is set to fall by 10.5% this year.</p>
+				<br>
+				<p>Paschal Donohoe said that both the Irish and global economic landscape have fundamentally changed due to the outbreak of Covid-19.</p>
+				<br>
+				<p>He said the labour market is bearing the brunt of the economic shock of the coronavirus outbreak.</p>
+				<br>
+				<p>The country will go from a state of near full employment to a peak unemployment rate of 22% in the second quarter and the unemployment rate will then average out at 13.9% for the year, he said.</p>
+				<br>
+				<p>Approximately 220,000 jobs will be lost.</p>
+				<br>
+				<p>Mr Donohoe's comments came as he published the Government's Stability Programme Update 2020 (SPU).</p>
+				<br>
+				<p>This sets out an economic scenario for 2020 and 2021 and which now incorporates the impact of the Covid-19 pandemic.</p>
+				<br>
+				<p>"The Irish economic landscape, in common with elsewhere, has been turned on its head in recent weeks," he said.</p>
+				<br>
+				<p>"The necessary restrictions to limit the transmission of the Covid-19 virus have resulted in a severe recession and unprecedented levels of unemployment."</p>
+				<br>
+				<p>He also said the gradual recovery assumed in the second half of the year is projected to gain momentum next year, with the economy growing by 6% and unemployment falling to below 10% next year.</p>
+				<br>
+				<p>"It is expected that economic activity will reach its pre-crisis level in 2022," the minister added.</p>
+				<br>
+				<p>He also said that the country's budget deficit is expected to be 7.4% this year, or €23bn (£20bn).</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Wuhan Flights to Myanmar Stopped Amid Coronavirus Outbreak</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-24120c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">24, 1, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>China Eastern Airlines (CEA) announced Friday that its direct flights from the Chinese city of Wuhan to Mandalay have been canceled.</p>
+				<br>
+				<p>Following the Wuhan lockdown, as China banned travel to Wuhan after the coronavirus outbreak, the airline said it would refund passengers.</p>
+				<br>
+				<p>China extended travel bans to cities near Wuhan today.</p>
+				<br>
+				<p>Passengers with CEA and Shanghai Airlines could apply for a free refund for tickets, a CEA statement said.</p>
+				<br>
+				<p>The Mandalay office said the flight scheduled to land in Mandalay tonight had been canceled.</p>
+				<br>
+				<p>A flight to Yangon from Wuhan landed on Thursday morning, soon after China imposed its travel restrictions on the city.</p>
+				<br>
+				<p>The Department of Civil Aviation has reportedly instructed airlines flying from Wuhan and other affected regions to perform checks.</p>
+				<br>
+				<p>It is unclear how Wuhan tourists stranded in Mandalay will travel home.</p>
+				<br>
+				<p>An official from Mandalay International Airport said passengers, especially those from China, were being screened with the cooperation of the Ministry of Health.</p>
+				<br>
+				<p>CEA operates two direct flights between Wuhan and Mandalay per week with a capacity of around 90 passengers and crew.</p>
+				<br>
+				<p>The Ministry of Hotels and Tourism said more than 370,000 Chinese tourists flew to Mandalay in 2019.</p>
+				<br>
+				<p>The Chinese authorities said 26 deaths had been reported due to the coronavirus and 177 out of 830 cases were severe.</p>
+				<br>
+				<p>The disease has reportedly been found in Thailand, South Korea, Taiwan, Singapore, Japan, Vietnam and the United States.</p>
+				<br>
+				<p>Numerous students from Myanmar studying in Wuhan are affected by the lockdown.</p>
+				<br>
+				<p>The Myanmar Embassy in Beijing called on citizens in the country to follow the emergency regulations issued to prevent infection.</p>
+				<br>
+				<p>It called on students in affected areas to contact the embassy to help coordinate with the Chinese authorities.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

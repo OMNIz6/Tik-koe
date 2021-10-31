@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus: President Trump defends tweets against US states' lockdowns</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-18420b.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">18, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>President Donald Trump has defended tweets in which he appeared to endorse protests against stringent lockdown measures in several US states.</p>
+				<br>
+				<p>At his Friday briefing, he said some measures imposed by Minnesota, Michigan and Virginia had been "too tough".</p>
+				<br>
+				<p>Earlier, he wrote in a series of tweets: "LIBERATE MINNESOTA", "LIBERATE MICHIGAN" and then "LIBERATE VIRGINIA".</p>
+				<br>
+				<p>The curbs, which include stay-at-home orders, are needed to slow the spread of coronavirus.</p>
+				<br>
+				<p>But protesters say they are hurting citizens by limiting movement unreasonably and stifling economic activity.</p>
+				<br>
+				<p>The three states the Republican president referred to in Friday's tweets are all led by Democratic governors. Mr Trump may be seeking to encourage his political base to protest against Democrats, the BBC's Anthony Zurcher says.</p>
+				<br>
+				<p>Demonstrations calling on authorities to end the shutdown have occurred in Michigan, Ohio, North Carolina, Minnesota, Utah, Virginia and Kentucky.</p>
+				<br>
+				<p>But Mr Trump did not mention Ohio and Utah, which both have Republican governors.</p>
+				<br>
+				<p>His comments came shortly after the US saw its highest daily death toll from coronavirus, recording 4,591 deaths in 24 hours on Thursday.</p>
+				<br>
+				<p>That rise could be because Johns Hopkins University, which records the data, began to include deaths with a Covid-19 probable cause.</p>
+				<br>
+				<p>The US has the highest number of cases and deaths worldwide, with nearly 700,000 confirmed infections and more than 36,000 deaths.</p>
+				<br>
+				<p>More demonstrations against the lockdown measures are planned, including in Wisconsin, Oregon, Maryland, Idaho and Texas.</p>
+				<br>
+				<p>The protests have varied in size, ranging from a few dozen people in Virginia to thousands in Michigan.</p>
+				<br>
+				<p>Minnesota Governor Tim Walz responded to the president's tweets, saying he called the White House to ask "what they think we could have done differently" but did not hear back.</p>
+				<br>
+				<p>"The president unveiled a three step plan that mirrors exactly what we're trying to do," Mr Walz told reporters.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

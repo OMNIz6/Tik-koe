@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar’s Shan State Imposes COVID-19 Curfew</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-20420f.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">20, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>A curfew has been imposed in Shan State, following the example of Yangon, Mandalay and Bago regions and Karen State, to prevent the spread of COVID-19.</p>
+				<br>
+				<p>The Shan State government said the order across 48 townships would prevent further infections from coronavirus, help control the virus and allow treatment.</p>
+				<br>
+				<p>Shan State contains 55 townships. The 10 pm to 4 am curfew will not include townships in the self-administrative zones of Wa, Mong La and Kokang.</p>
+				<br>
+				<p>Four townships are under the control of the United Wa State Army and Mongla is held by the National Democratic Alliance Army. In the two townships in Kokang, the authorities imposed martial law in 2015 after the Myanmar National Democratic Alliance Army attacked Laukkai.</p>
+				<br>
+				<p>The one-month curfew will begin tonight at 10 pm and is due to last until May 19.</p>
+				<br>
+				<p>The state has four coronavirus patients and 4,008 people who have been in quarantine centers and 5,138 under isolation at home.</p>
+				<br>
+				<p>No one is allowed out at night but trucks will still be allowed to transport commodities.</p>
+				<br>
+				<p>Shan State, which has a long border with China, has long been on COVID-19 alert.</p>
+				<br>
+				<p>Many Shan residents work in China and have returned after work dried up as coronavirus spread.</p>
+				<br>
+				<p>A case of COVID-19 was found in southern Shan State, followed by another in Kengtung in the east of the state and then Lashio in the north. A doctor in Tachileik was the latest case announced on April 19.</p>
+				<br>
+				<p>U Chan Myae Saw, a township administrator in Tachileik, told The Irrawaddy that the patient was transferred to Kengtung on Sunday.</p>
+				<br>
+				<p>The township authorities enforced home quarantine on 21 doctors and nurses from the hospital in Tachileik, which meant the hospital had insufficient staff.</p>
+				<br>
+				<p>“We made them home quarantine. They have been tested and we are waiting for the results,” said U Chan Myae Saw.</p>
+				<br>
+				<p>Medics from Kengtung, Mandalay and the military were being transferred to the public hospital in the meantime.</p>
+				<br>
+				<p>Myanmar now has 111 COVID-19 patients, with 91 in Yangon.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

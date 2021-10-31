@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar’s Garment Factories Face Closure as Coronavirus Blocks Supplies</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-19220d.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">19, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar’s garment factories are facing the risk of shutdown as the coronavirus in China has restricted imports of raw materials, according to the Myanmar Garment Manufacturers Association (MGMA).</p>
+				<br>
+				<p>Myanmar imports up to 90 percent of raw materials from China and the rest from Indonesia, Vietnam, Thailand and South Korea for the garment industry which largely uses a cut-make-package (CMP) model.</p>
+				<br>
+				<p>The number of deaths from the coronavirus outbreak in mainland China rose by 136, pushing the nationwide death toll to 2,004, the country’s National Health Commission reported (today) Wednesday. There are over 70,000 confirmed cases across the country. Many businesses, including suppliers for Myanmar’s factories, are struggling to function properly.</p>
+				<br>
+				<p>“We have problems as 90 percent of raw materials come from China. We are waiting for the day when the Chinese side will resume operations,” garment manufacturer U Myint Soe said.</p>
+				<br>
+				<p>Representatives from the Commerce Ministry and the MGMA met on Monday to address the issue, but no solution was found.</p>
+				<br>
+				<p>The majority of clothing factories have stopped running overtime due to dwindling stocks.</p>
+				<br>
+				<p>Normally clothing factories run 10 hours on weekdays, which includes two hours of overtime, as well as overtime on weekends. But many factories are closing on weekends and not running overtime on weekdays, said U Myint Soe.</p>
+				<br>
+				<p>“As a first step, the working hours are being reduced. Next, there will be redundancies. And then the factories will have to close temporarily. If the situation still doesn’t improve, there will be permanent shutdowns. This is the way it should be done,” he said.</p>
+				<br>
+				<p>U Khin Maung Oo of the MGMA said: “Some still have stocks and others have already run out. It appears that those who still have stocks will not survive through March. Factories which have run out of stocks will have to close.”</p>
+				<br>
+				<p>Meanwhile, the overland exports of melons, live cattle and marine products to China have virtually ceased.</p>
+				<br>
+				<p>U Nanda, director of the Trade Department on the Muse border, said: “China has imposed restrictions due to the coronavirus outbreak. It informed us on Feb. 13 that the customs office in Ruili had reopened and trade recovered a little.</p>
+				<br>
+				<p>“Although some factories have reopened, many staff are not yet back at work. And some factories remain closed. So the trade does not gather momentum.”</p>
+				<br>
+				<p>U Nanda said it was difficult to predict the import volumes of raw materials for the clothing sector, but trucks supplying the factories entered Muse throughout the day before the outbreak.</p>
+				<br>
+				<p>Muse, Chin Shwe Haw and Lweljel were the most popular border gates for clothing supplies, he said.</p>
+				<br>
+				<p>The export value of garments from Oct. 1 to the end of January was over US$1.6 billion (2.3 trillion kyats), according to the Commerce Ministry.</p>
+				<br>
+				<p>Hlaing Tharyar Township’s employee representative Ma Kyi Kyi Tun from the Confederation of Trade Unions of Myanmar (CTUM) said: “It appears that some factories will close temporarily, providing certain compensation for employees. Employers must cooperate with trade unions.”</p>
+				<br>
+				<p>The CTUM estimates that more than 500,000 people work in the clothing sector in Yangon Region, with nearly 300,000 employed in 500 to 600 garment factories in Hlaing Tharyar Township alone.</p>
+				<br>
+				<p>Of 29 industrial zones in Yangon, Hlaing Tharyar compound is the biggest in terms of size, workforce and garment factories.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus in Africa: 27,385 cases; 1,297 deaths; 8,172 recoveries</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-24420l.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">24, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>africanews.</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>There are now more than over 27,600 confirmed cases of coronavirus across the continent, with a number of African countries imposing a range of prevention and containment measures against the spread of the pandemic.</p>
+				<br>
+				<p>According to the latest data by the John Hopkins University and Africa Center for Disease Control on COVID-19 in Africa, the breakdown remains fluid as countries confirm cases as and when. The whole of Africa has rising cases with only two countries holding out as of April 23.</p>
+				<br>
+				<p>We shall keep updating this list largely sourced from the John Hopkins University tallies, Africa CDC and from official government data. The classifications are based on where the countries are located especially in the case of countries that belong to two different blocs, like Tanzania in East Africa, despite belonging to EAC and SADC.</p>
+				<br>
+				<p><b>Major African stats: April 24 at 7:00 GMT:</b></p>
+				<br>
+				<p>
+					<ul>
+						<li>Confirmed cases = 27,385</li>
+						<li>Number of deaths = 1,297</li>
+						<li>Recoveries = 8,172</li>
+						<li>Infected countries = 52</li>
+						<li>Virus-free countries = 2 (Lesotho, Comoros)</li>
+					</ul>
+				</p>
+				<br>
+				<p><b>Countries in alphabetical order</b></p>
+				<br>
+				<p>
+					<ul>
+						<li>Algeria – 3,007</li>
+						<li>Angola – 25</li>
+						<li>Benin – 54</li>
+						<li>Botswana – 22</li>
+						<li>Burkina Faso – 616</li>
+						<li>Burundi – 11</li>
+						<li>Cameroon – 1,334</li>
+						<li>Cape Verde – 82</li>
+						<li>Central African Republic – 16</li>
+						<li>Chad – 33</li>
+						<li>Comoros – 0</li>
+						<li>Congo-Brazzaville – 186</li>
+						<li>DR Congo – 394</li>
+						<li>Djibouti – 986</li>
+						<li>Egypt – 3,891</li>
+						<li>Equatorial Guinea – 84</li>
+						<li>Eritrea – 39</li>
+						<li>Eswatini – 31</li>
+						<li>Ethiopia – 116</li>
+						<li>Gabon – 167</li>
+						<li>(The) Gambia – 10</li>
+						<li>Ghana – 1,154</li>
+						<li>Guinea – 862</li>
+						<li>Guinea-Bissau – 50</li>
+						<li>Ivory Coast – 1,004</li>
+						<li>Kenya – 330</li>
+						<li>Lesotho – 0</li>
+						<li>Liberia – 101</li>
+						<li>Libya – 60</li>
+						<li>Madagascar – 121</li>
+						<li>Malawi – 33</li>
+						<li>Mali – 309</li>
+						<li>Mauritania – 7</li>
+						<li>Mauritius – 331</li>
+						<li>Morocco – 3,568</li>
+						<li>Mozambique – 46</li>
+						<li>Namibia – 16</li>
+						<li>Niger – 671</li>
+						<li>Nigeria- 981</li>
+						<li>Rwanda – 154</li>
+						<li>Sao Tome and Principe – 4</li>
+						<li>Senegal – 479</li>
+						<li>Seychelles – 11</li>
+						<li>Sierra Leone – 64</li>
+						<li>Somalia – 328</li>
+						<li>South Africa – 3,953</li>
+						<li>South Sudan – 5</li>
+						<li>Sudan – 174</li>
+						<li>Tanzania – 284</li>
+						<li>Togo – 88</li>
+						<li>Tunisia – 918</li>
+						<li>Uganda – 74</li>
+						<li>Zambia – 76</li>
+						<li>Zimbabwe – 29</li>
+					</ul>
+				</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>First Group of Japanese Evacuees From Wuhan Completes Quarantine</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-13220a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">13, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The first group of Japanese nationals evacuated from China's Wuhan on a government-chartered aircraft amid the coronavirus outbreak was allowed to go home Thursday after a little over two weeks of isolation.</p>
+				<br>
+				<p>A total of 197 people had stayed at a hotel in Chiba Prefecture, near Tokyo, and government facilities since they returned on Jan. 29 from the Chinese city at the center of the outbreak for quarantine screenings.</p>
+				<br>
+				<p>They all tested negative in their final virus examination conducted Tuesday after completing a 12.5-day monitoring period for the deadly pneumonia-causing virus.</p>
+				<br>
+				<p>The health ministry said returnees on the second chartered aircraft that arrived on Jan. 30 will also be free to return home if their latest test results that will come out later in the day show they are not infected.</p>
+				<br>
+				<p>"I appreciated the kind treatment we were shown by government officials and people at the hotel. I was able to spend my days without much stress," said a man in his 30s from Mie Prefecture who was among the returnees. "I want to thank the local people who have encouraged us too," he added.</p>
+				<br>
+				<p>The Tokyo government said it will provide 50 temporary public housing units free of charge for those who do not have a place to live immediately available.</p>
+				<br>
+				<p>The coronavirus outbreak has already claimed more than 1,300 lives in China, with the number of people infected with the virus on the country's mainland close to 60,000, according to its health authorities.</p>
+				<br>
+				<p>The total number of the infected in Japan has surpassed 200, mostly those from a quarantined cruise ship docked in Yokohama, near Tokyo.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

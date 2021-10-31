@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>All Homecoming Migrant Workers Must Stay in Quarantine Centers: Myanmar Govt</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-31320c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">31, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Myanmar’s government has urged all migrant workers who are hoping to return home overland to wait for two weeks or face quarantine upon arrival.</p>
+				<br>
+				<p>The Ministry of Foreign Affairs said quarantine centers were being prepared to hold returnees for 14 days.</p>
+				<br>
+				<p>No more returnees will be allowed to head straight to their homes after a 44-year-old returning from Thailand through the Mae Sot-Myawaddy border on March 23 tested positive with coronavirus on March 29 in Yangon.</p>
+				<br>
+				<p>On Monday, the Health Ministry warned that migrant workers could spark a COVID-19 outbreak across the country.</p>
+				<br>
+				<p>Migrants are urged to return after April 15 when quarantine centers can be provided, said the Ministry of Foreign Affairs.</p>
+				<br>
+				<p>On Tuesday, by the afternoon, the Myawaddy border had received around 500 returnees who would be quarantined at makeshift centers, said U Tayzar Aung, the Myawaddy district administrator.</p>
+				<br>
+				<p>From March 21 to March 30, around 40,000 migrants in Thailand returned home through Myawaddy in Karen State and Shan State’s Tachileik border.</p>
+				<br>
+				<p>Around 35,000 of the returnees came through Myawaddy, according to Karen State parliamentarian U Thant Zin Aung.</p>
+				<br>
+				<p>Those with no illnesses or high temperatures were allowed to go home.</p>
+				<br>
+				<p>Thailand-based labor attaché U Wai Linn Maung told The Irrawaddy on Tuesday that the numbers returning were falling to approximately 1,000 per day.</p>
+				<br>
+				<p>U Tayzar Aung said makeshift quarantine centers could currently hold about 2,500 returnees.</p>
+				<br>
+				<p>He added that labor camps, labor centers, factories and some stadiums would be used as quarantine centers.</p>
+				<br>
+				<p>Returnees with illnesses, high temperatures and difficulty breathing will be sent to hospitals for isolation.</p>
+				<br>
+				<p>By March 30, Myanmar had 14 cases of COVID-19.</p>
+				<br>
+				<p>A 69-year-old COVID-19 patient, who was suffering from nasal cancer, died on Tuesday, becoming the first coronavirus death in Myanmar.</p>
+				<br>
+				<p>The World Health Organization reported on March 30 that nearly 700,000 people globally were infected with COVID-19 and more than 33,000 had died.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar’s Mandalay Promises Food Supplies for the Poor</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-6420l.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">6, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The Mandalay regional government says it will spend 1 billion kyats (US$770,000) feeding struggling families in the region during the COVID 19 pandemic.</p>
+				<br>
+				<p>Mandalay Region has imposed travel restrictions and close major markets such as Zay Cho, Yadanarpon and Mingalar, leaving the city nearly deserted.</p>
+				<br>
+				<p>The acting chief minister, U Zarni Aung, said the regional government’s fund would provide rice, cooking oil, beans, pulses and other basic commodities for people who had lost earnings due to travel restrictions and the closure of the markets and businesses to prevent the spread of coronavirus.</p>
+				<br>
+				<p>“The regional government has instructed all administrative offices to collect a list of people who earn very little and are affected by the pandemic. We will support them with essential commodities such as rice and cooking oil,” said the acting chief minister.</p>
+				<br>
+				<p>Porters, taxi drivers and street hawkers working at the markets and bus stations have been made jobless.</p>
+				<br>
+				<p>The regional government also said it was accepting donations from the private sector to help those struggling with the shutdowns.</p>
+				<br>
+				<p>Township authorities have been told to list porters, motorcycle taxi drivers, street hawkers, flower sellers and other traders.</p>
+				<br>
+				<p>“Once we receive the list, we will distribute the commodities to those who are urgently in need, using safety measures to minimize contact. Civil societies organizations and volunteers are also invited to cooperate,” U Zarni Aung added.</p>
+				<br>
+				<p>The Mandalay government has donated rice, cooking oil, bean and pulses, onions and other essentials for over 48,000 Buddhist monks and nuns so they do not need to go out to collect offerings.</p>
+				<br>
+				<p>“Buddhist monks and nuns are vulnerable to coronavirus as they have to go out every day to collect alms. Since we are urging people to stay home, they need to stay in their monasteries,” U Zarni Aung said. “We are thinking of extending the support.”</p>
+				<br>
+				<p>Mandalay Region and in Monywa and Sagaing of Sagaing Region have voluntary groups helping struggling households with commodities, masks, soap, hand sanitizers and medicine.</p>
+				<br>
+				<p>Yangon has social volunteer teams, including celebrities, donating commodities to the poor.</p>
+				<br>
+				<p>Other regions and states have been slower to gear up a response to the crisis.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

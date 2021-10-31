@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar State Counselor’s Public Meetings Draw Criticism Amid Coronavirus Fears</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-11320b.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">13, 1, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Amid growing concern over the global spread of coronavirus, public meetings being held by Myanmar State Counselor Daw Aung San Suu Kyi across the country have attracted criticism as a possible health hazard.</p>
+				<br>
+				<p>The State Counselor is currently in Depayin, Sagaing Region, to meet with local residents. Wednesday’s visit is her first to Depayin since May 30, 2003, when her convoy was attacked and a number of National League for Democracy members and supporters were killed.</p>
+				<br>
+				<p>After the public meeting in Depayin, Daw Aung San Suu Kyi is scheduled to travel to Shwebo.</p>
+				<br>
+				<p>Although organizers are conducting health checks at the entrances to the meeting venues, the large crowds, which have swelled into the hundreds, have raised concerns that the events could facilitate the spread of coronavirus.</p>
+				<br>
+				<p>“Public meetings and gatherings should not be held at this time, for health reasons. It is risky for the public as well as for her [Daw Aung San Suu Kyi],” said lawyer U Thein Than Oo.</p>
+				<br>
+				<p>He pointed out that the Health Ministry has advised that public gatherings should be limited or canceled as the number of infections continues to rise globally.</p>
+				<br>
+				<p>While no confirmed cases of coronavirus infection have been reported in Myanmar so far, in an effort to prevent sudden outbreaks, the Ministry of Health and Sports in February issued warnings to both government institutions and the general public to avoid crowded areas and limit public gatherings.</p>
+				<br>
+				<p>According to the ministry, 85 people have been tested as “patients under investigation” in Myanmar; lab tests showed 78 of these were negative for the coronavirus, while results are pending for the remainder.</p>
+				<br>
+				<p>Daw Aung San Suu Kyi, in her capacity as chairperson of the Central Committee to Implement the Development of Border Areas and Ethnic Nationalities, has been touring various parts of the country including ethnic areas since January.</p>
+				<br>
+				<p>On Tuesday she visited Lashio in northern Shan State as well as Pyin Oo Lwin in Mandalay Region.  She met with local residents in both places, and received some remarkable complaints about confiscated lands in Pyin Oo Lwin.</p>
+				<br>
+				<p>In January, she traveled to Myitkyina in Kachin State and Loikaw in Kayah State.</p>
+				<br>
+				<p>Last month, she met with locals from Tamu, Pinlaebu, Banmauk, Nan Yun and Laeshee in the Naga Hills district of Sagaing Region; Htantalan and Tunzan in Chin State; Kyarinseikgyi, Hlaing Bwe, Kawkareik and Myawaddy in Karen State; and Taunggyi and Pinlone in southern Shan State.</p>
+				<br>
+				<p>Many see her trips—especially those to the ethnic areas—as preparation for the upcoming election, as the National League for Democracy announced in 2019 that it would not be forming electoral alliances with ethnic political parties.</p>
+				<br>
+				<p>“Apart from the health issue, when we look at it from a political perspective, the country is at an important stage, with the general election this year. She [Daw Aung San Suu Kyi], as leader of the government, might think that it is important to meet with locals, the ethnic people, to prepare for the future,” said U Thein Than Oo, referring to the party’s recent failed attempt to amend the 2008 Constitution in Parliament.</p>
+				<br>
+				<p>Health workers scan the body temperature of an attendee at a public meeting with Daw Aung San Suu Kyi in Pyin Oo Lwin, on Tuesday.</p>
+				<br>
+				<p>“In my own opinion, the government is facing a political plague that is worse than the coronavirus and affecting the development of the country in every sector. Most citizens are too busy struggling to make a living to have any fear of, or interest in, the virus,” he added.</p>
+				<br>
+				<p>The organizers of the State Counselor’s public meetings said they had received instructions from officials in Naypyitaw regarding security as well as health screenings.</p>
+				<br>
+				<p>“Along with the security measures, we were also instructed on measures to prevent the spread of coronavirus. We have set up temperature screening [facilities] at the entrances of the venues and no one is allowed to give flowers or presents to the State Counselor or shake her hand,” said a source from the Lashio District administration office, which arranged the State Counselor’s public meeting in the town. The source asked not to be named, as they are not authorized to talk to the media.</p>
+				<br>
+				<p>Locals said most of those who attended public meetings with the State Counselor said they did not fear contracting coronavirus, due the arrangements made by the organizers.</p>
+				<br>
+				<p>“There were health workers measuring the body temperatures of everyone and they provided hand sanitizing gel to clean our hands before we entered the venue. So most of the locals feel safe and didn’t appear worried about the spread of the virus,” said U Shwe Hla, a state committee member at the NLD office in Lashio. “No one wore masks to protect themselves.”</p>
+				<br>
+				<p>Although the death toll and number of confirmed infections in China—where the outbreak originated—is slowing, the global death toll due to coronavirus has risen to over 4,200. The number of people infected with the virus worldwide has increased to 117,000 and the virus has spread to more than 80 countries.</p>
+				<br>
+				<p>The Central Contagious Disease Prevention and Eradication Sub-Department under the Health Ministry’s Public Health Department said it had sent notices to all the other ministries recommending that public gatherings be canceled or that attendance be limited to as few people as possible.</p>
+				<br>
+				<p>“It is best to halt public gatherings. If a gathering is unavoidable, the number of attendees should be reduced as much as possible. We’ve already sent letters of recommendation and notices on this to all government institutions,” said Dr. Khin Khi Gyi, the department’s deputy director of contagious disease prevention and eradication.</p>
+				<br>
+				<p>The vice minister for information confirmed that the notice from the Ministry of Health and Sports was sent out after central level meetings on ways to tackle the coronavirus were held in February and early this month.</p>
+				<br>
+				<p>Apart from the public meetings, the global coronavirus outbreak comes as Myanmar gears up for its pagoda festival season, which draws hundreds of thousands of festival-goers every year, adding to health workers’ concerns.</p>
+				<br>
+				<p>A prominent example is the Shwesattaw Pagoda festival in Minbu, Magwe Region, which draws thousands of pilgrims from across the country every year. The chief minister of Magwe Region told The Irrawaddy that body temperature screening stations would be set up at festival venues, and a medical team is standing by.</p>
+				<br>
+				<p>“The medical team is on standby and we will issue orders to stop the festival as soon as we receive news that a positive coronavirus case has been detected,” Chief Minister U Aung Moe Nyo said.</p>
+				<br>
+				<p>The chief minister added that the pagoda trustee committee would cooperating with the health team by placing water, soaps and hand sanitizers at festival venues and educate pilgrims about the coronavirus.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Shan State Ministers, Over 30 State Employees in Quarantine for COVID-19</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-22420a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">22, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The chief minister of Shan State, members of the state cabinet and over three dozen state government employees entered facility quarantine on Monday after it was announced that two state government employees are being monitored for COVID-19.</p>
+				<br>
+				<p>The chief minister and the ministers for municipal affairs, social affairs, Bamar ethnic affairs and roads and communication as well as the speaker of the state parliament, a police chief and more than 30 employees were placed under quarantine at the state government’s guest house, according to State Minister for Finance and Planning U Soe Nyunt Lwin.</p>
+				<br>
+				<p>The cabinet members recently traveled together to the eastern part of Shan State to donate medical supplies and food for hospitals in Tachileik, Mongyawng and Kengtung townships. According to the Ministry of Health and Sports (MOHS), the state has total of six COVID-19 patients: three in the eastern part of the state, two in the south and one in the north.</p>
+				<br>
+				<p>“We received rapid test kits from individual donors so [the state employees and ministers] have just been tested, as they have returned from townships where there are positive cases [of the coronavirus],” U Soe Nyunt Lwin said. According to the minister, a personal assistant and a driver for one cabinet member tested positive using rapid test kits, but both the World Health Organization (WHO) and the MOHS currently do not recommend the use of antibody-detecting rapid diagnostic tests for COVID-19 as the results are found to be unreliable.</p>
+				<br>
+				<p>“All the ministers [tested] negative but we decided to place them under the quarantine. We understand that rapid test kits are not reliable,” the minister said.</p>
+				<br>
+				<p>“We have sent all the samples to the National Health Laboratory in Yangon. We are currently waiting for the results. Hopefully we will receive the results by tomorrow,” the minister stressed.</p>
+				<br>
+				<p>“I am sure that not all of the cabinets members had close contact with the previously confirmed patients during the trip,” he added.</p>
+				<br>
+				<p>Shan state has imposed a curfew from 10 p.m. to 4 a.m. in 48 townships which began Monday and will last until May 19 to help prevent further infections from the coronavirus. MOHS said Shan State has quarantined a total of 4,257 people.</p>
+				<br>
+				<p>As of Wednesday morning, Myanmar has confirmed a total of 121 cases of COVID-19, including 5 deaths. MOHS said nine patients are also recovering from COVID-19 as each of them have tested negative for the disease twice in follow-up lab tests.</p>
+				<br>
+				<p>MOHS said Myanmar has tested a total of 4,919 people who are suspected of COVID-19 as of Monday.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

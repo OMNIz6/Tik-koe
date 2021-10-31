@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">s
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>RCSS Dialogue with Shan Residents Postponed Over Myanmar’s Coronavirus Concerns</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-17320c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">17, 3, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The national-level political dialogue in Shan State slated for the end of March has been postponed as a precautionary measure against the coronavirus pandemic, according to a spokesperson for the Shan ethnic armed group Restoration Council of Shan State (RCSS).</p>
+				<br>
+				<p>“We will have to wait and watch because of coronavirus. We will hold it if things improve,” RCSS Lieutenant Colonel Ohm Khur told The Irrawaddy. “But we can’t say an exact date. It depends on the virus.”</p>
+				<br>
+				<p>The national-level political dialogue is a mandatory step in the implementation of the Nationwide Ceasefire Agreement (NCA). Stakeholders from within each region of the country gather at these large-scale public consultations to give suggestions and recommendations that are then shared at the Union Peace Conference, also called the 21st Century Panglong Conference.</p>
+				<br>
+				<p>The RCSS, the political wing of the Shan State Army-South, signed the NCA in 2015 under Myanmar’s previous government but has not had the chance to hold a national dialogue or public consultations since 2017 because the Myanmar military has rejected the group’s proposed venues for the talks.</p>
+				<br>
+				<p>After months of negotiations, the government and the Tatmadaw, as the Myanmar military is known, agreed earlier this year to the RCSS plan for a national-level dialogue in Langkho Township around the end of March.</p>
+				<br>
+				<p>The World Health Organization declared the coronavirus outbreak a pandemic last week. The death toll from the outbreak had topped 7,100 as of Tuesday morning.</p>
+				<br>
+				<p>On March 13, Myanmar’s Ministry of Health and Sports issued instructions asking people to avoid mass gatherings until April 30. The government has also ordered closures of cinemas and nursery schools across the country as a precaution, though there have been no confirmed COVID-19 cases reported in Myanmar.</p>
+				<br>
+				<p>General Secretary for the Shan Nationalities League for Democracy Sai Leik said it was a sensible decision to postpone the national-level dialogue.</p>
+				<br>
+				<p>“Everyone knows the level of reliability of the country’s health care system. It is the best option to postpone,” he said, adding that the move will not negatively impact the peace process.</p>
+				<br>
+				<p>“Whether the Shan national-level political dialogue is held or not, the Union Peace Conference must proceed if the decision from the JICM [Joint Ceasefire Implementation Coordination Meeting] is to be implemented,” he said.</p>
+				<br>
+				<p>The JICM met on Jan. 8 and the government and ethnic armed groups agreed on eight points to further the peace process, including working to establish a stronger ceasefire and to negotiate on ways to move towards a federal union.</p>
+				<br>
+				<p>Ethnic affairs analyst U Maung Maung Soe suggested it is likely that the Shan national-level political dialogue will be postponed until May.</p>
+				<br>
+				<p>“I think both the national-level political dialogue and the peace conference will be postponed. But then there is the general election [slated for November], so the election could restrict the chances of holding [the conference],” he remarked.</p>
+				<br>
+				<p>However, as the National League for Democracy government will remain in power until March 2021, it still has four months to hold the Union Peace Conference, if the election is held on schedule.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

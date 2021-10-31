@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Coronavirus 'could wipe out Brazil's indigenous people'</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-6420p.jpg">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">6, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>BBC</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Indigenous communities in the Amazon region and elsewhere in Brazil are in danger of being "wiped out" by the coronavirus, according to health experts.</p>
+				<br>
+				<p>Respiratory illnesses - such as those that develop from the influenza virus - are already the main cause of death for native communities.</p>
+				<br>
+				<p>By Sunday 5 April, Brazil had reported more than 11,000 confirmed cases of Covid-19 and 486 deaths.</p>
+				<br>
+				<p>Infections were initially concentrated in the industrialized state of São Paulo. However, they have now spread across the country, including to indigenous territories in the Amazon basin that are the size of France and Spain combined.</p>
+				<br>
+				<p>The first case among indigenous peoples was recorded in Amazonas state.</p>
+				<br>
+				<p>"There is an incredible risk of the virus spreading across the native communities and wiping them out," says Dr Sofia Mendonça, a researcher at the Federal University of São Paulo (Unifesp).</p>
+				<br>
+				<p>Dr Mendonça is the co-ordinator of a university-led health project among indigenous peoples in the Xingu river basin in the Amazon rainforest.</p>
+				<br>
+				<p>She fears the coronavirus could have a similar impact to previous major outbreaks of highly contagious respiratory diseases such as measles.</p>
+				<br>
+				<p>In the 1960s, a measles outbreak among members of the Yanomami community living near the border with Venezuela killed 9% of those infected.</p>
+				<br>
+				<p>"Everyone gets sick, and you lose all the old people, their wisdom and social organization," Dr Mendonça says. "It's chaos."</p>
+				<br>
+				<p>In response to the Covid-19 pandemic, she adds, some communities are planning to split into smaller groups and seek refuge inside the forest. That is how they avoided extinction during past epidemics.</p>
+				<br>
+				<p>"They will gather materials needed for hunting and fishing and will set up camps, waiting there until the dust settles," she says.</p>
+				<br>
+				<p>Many communities lack the means to reduce the risk of contagion, such as washing hands with soap and water, or using hand sanitizer.</p>
+				<br>
+				<p>People also often live in close quarters with each other and share bowls and glasses, both of which help infectious diseases spread more quickly.</p>
+				<br>
+				<p>They are now being advised to stop sharing utensils and to use traditional seclusion practices - such as those applied to women after they give birth - to isolate people with the symptoms of Covid-19.</p>
+				<br>
+				<p>Indigenous communities also live in areas where there is limited access to healthcare, particularly intensive care beds.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

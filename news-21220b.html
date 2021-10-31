@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>China Says Media That ‘Insults’ the Country Must Pay a Price</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-21220b.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">21, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>China on Thursday said that media organizations that blatantly insult China and spread racial discrimination must pay the price, after the country expelled three reporters of The Wall Street Journal a day earlier.</p>
+				<br>
+				<p>"Does freedom of speech entail publishing a racist, discriminatory and insulting article?" Foreign Ministry spokesman Geng Shuang asked at a regular press briefing, defending its decision to revoke the correspondents' press credentials after the U.S. newspaper published an op-ed China deemed racist and slanderous.</p>
+				<br>
+				<p>The article, titled "China is the Real Sick Man of Asia" by Bard College professor Walter Russel Mead, has triggered "huge indignation and condemnation from China and the larger international community," Geng said.</p>
+				<br>
+				<p>The U.S. newspaper is doing "nothing but fudging the issue and dodging its responsibility," Geng said, adding that China has the right to take further measures.</p>
+				<br>
+				<p>In recent years, China has effectively expelled foreign journalists on a number of occasions by not renewing their visas.</p>
+				<br>
+				<p>Wall Street Journal publisher William Lewis expressed disappointment in China's decision, saying the paper regrets having "caused upset and concern amongst the Chinese people," in a statement on Wednesday.</p>
+				<br>
+				<p>The three expelled journalists -- Josh Chin and reporter Chao Deng, both U.S. nationals, as well as reporter Philip Wen, an Australian national -- had no involvement in the article, the statement stressed.</p>
+				<br>
+				<p>U.S. Secretary of State Mike Pompeo condemned the expulsion, saying "mature, responsible countries understand that a free press reports facts and expresses opinions."</p>
+				<br>
+				<p>"The correct response is to present counter arguments, not restrict speech," he said in a statement.</p>
+				<br>
+				<p>China's decision came hours after the U.S. government designated five Chinese state-run media outlets as "foreign missions" by law, adding fire to the two countries' disagreement over press freedom.</p>
+				<br>
+				<p>The law will require them to submit information on their employees and property holdings in the United States.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

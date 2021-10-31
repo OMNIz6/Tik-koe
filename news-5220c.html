@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Gambling Hub Macau to Shut Casinos for Two Weeks Amid Virus Outbreak</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-5220c.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">5, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The casino city of Macau will halt all casino operations for two weeks, leader Ho Iat Seng said Tuesday, a step aimed at stopping the spread of a new coronavirus outbreak in the world's largest gambling hub.</p>
+				<br>
+				<p>The move was prompted by the diagnosis the same day with the virus of a 29-year-old local woman, a hotel worker, who had been using shuttle buses used by casino industry workers.</p>
+				<br>
+				<p>Secretary for Economy and Finance Lei Wai Nong said in a statement that by midnight Tuesday, all 41 casinos and other premises, including movie theatres, pubs and nightclubs, will suspend operation for 15 days.</p>
+				<br>
+				<p>The area's six major casino operators have also promised the government that they will continue to pay their employees during the suspension, to show their social responsibility.</p>
+				<br>
+				<p>Macau reported two new cases on Tuesday, including the woman's, bringing the total in the Chinese territory to 10.</p>
+				<br>
+				<p>The woman had access to "casino shuttle buses and staff canteen, which is most worrying as other casino workers would also use the buses," Ho told reporters in Macau.</p>
+				<br>
+				<p>"This is a tough decision to make, but the health of Macau people is our only goal. For now, we can still bear the economic loss," he said.</p>
+				<br>
+				<p>The Macau leader said a decision will be made immediately on resuming casino operations after two weeks if the situation has stabilized.</p>
+				<br>
+				<p>The territory's civil servants have been given another week of leave following Thursday's end of a weeklong Lunar New Year holiday. During this period, only urgent public services are being maintained.</p>
+				<br>
+				<p>Ho urged the residents of the former Portuguese colony not to leave home unless necessary. "Heed us. Stay home unless you really need to go out."</p>
+				<br>
+				<p>Until now, the Macau government has taken a series of preventive measures, including requiring casino patrons and workers, and commuters on public transport to wear masks.</p>
+				<br>
+				<p>Macao opened its casino sector in 2002, ending a monopoly system over it. Its casino-related revenue exceeded that of Las Vegas in 2006, making it the world's largest gambling hub.</p>
+				<br>
+				<p>The gaming industry, the territory's major economic engine, brought 293 billion patacas ($37 billion) in revenue to Macau in 2019.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

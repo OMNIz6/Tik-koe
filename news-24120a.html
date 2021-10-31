@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>China Building 1,000-Bed Hospital Over the Weekend to Treat Coronavirus</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-24120a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">24, 1, 2020</div>
+				<div class="news-source col-6">Source: <span><b>REUTERS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The Chinese city of Wuhan is rapidly building a new 1,000-bed hospital to treat victims of a new coronavirus, mobilizing machinery to get it ready by early next week, state media said.</p>
+				<br>
+				<p>The virus has killed 25 people in China and infected more than 800, the government said on Friday, as the World Health Organization declared it an emergency but stopped short of declaring the epidemic of international concern.</p>
+				<br>
+				<p>Most of the cases are in the central Chinese city of Wuhan, where the virus is believed to have originated late last year.</p>
+				<br>
+				<p>The new hospital is being built around a holiday complex originally intended for local workers, set in gardens by a lake on the outskirts of the city, the official Changjiang Daily reported on Friday. Prefabricated buildings which will have 1,000 beds will be put up, it said.</p>
+				<br>
+				<p>Building machinery, including 35 diggers and 10 bulldozers, arrived at the site on Thursday night, with the aim to get the new facility ready by Monday, the paper added.</p>
+				<br>
+				<p>“The construction of this project is to solve the shortage of existing medical resources” the report said. “Because it will be prefabricated buildings, it will not only be built fast but it also won’t cost much.”</p>
+				<br>
+				<p>The hospital aims to copy the experience of Beijing in 2003, when the city battled Severe Acute Respiratory Syndrome (SARS). As many as 774 people died in the SARS epidemic, which reached nearly 30 countries.</p>
+				<br>
+				<p>At the time, Beijing built the Xiaotangshan hospital in its northern suburbs in just a week. Within two months, it treated one-seventh of all the country’s SARS patients, the Changjiang Daily said.</p>
+				<br>
+				<p>“It created a miracle in the history of medical science,” the paper added.</p>
+				<br>
+				<p>The Beijing hospital, built by 7,000 workers, was originally designed only to take people who were in recovery from SARS to relieve pressure on other hospitals.In the end it treated nearly 700 SARS patients.</p>
+				<br>
+				<p>In the end it treated nearly 700 SARS patients.</p>
+				<br>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

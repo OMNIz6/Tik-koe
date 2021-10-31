@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html" class="active">Local</a></li>
+				<li><a href="global.html">Global</a></li>
+				<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Myanmar’s Mon State Consolidates Quarantine Centers for Returning Migrants</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-6420k.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">6, 4, 2020</div>
+				<div class="news-source col-6">Source: <span><b>THE IRRAWADDY</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>Community-level quarantine centers in Mon State will soon be shut, with all migrant workers returning from abroad since Sunday now required to stay at newly opened quarantine facilities in towns, according to an order from township authorities in the state.</p>
+				<br>
+				<p>There are many community-level quarantine centers scattered throughout the state, but with the number of returning migrants showing a dip on Monday, township authorities have decided to consolidate the centers to make their work more efficient and to get a better idea of the true number of returnees.</p>
+				<br>
+				<p>“Anyone who comes back to Mudon Township must come and stay at the town quarantine center, effective April 5,” U Thet Zaw Oo, a township official in Mudon, told The Irrawaddy on Monday.</p>
+				<br>
+				<p>“We want to quarantine people at the center systematically. We will arrange for them to stay in separate rooms [based on date of arrival]. For example, those who return on April 5 will be put in a room [designated] for April 5. We have prepared individual rooms for each day that people arrive,” he said.</p>
+				<br>
+				<p>Township authorities in Mudon opened a quarantine center at a high school in the town, which he said was currently holding 13 people. The move was not ordered by the state government; rather, the township authorities planned the new system.</p>
+				<br>
+				<p>Community-level quarantine centers in villages will shut down soon, and new arrivals will have to stay in the town center, according U Thet Zaw Oo.</p>
+				<br>
+				<p>U Zaw Moe Aung, a Paung Township general administrative officer, said township authorities were now sending returning migrants directly to Mawlamyine.</p>
+				<br>
+				<p>“We are not letting them enter anymore. They all have to stay in Mawlamyine for two weeks. We told car drivers from Myawadddy to drive all of them to Mawlamyine,” he said.</p>
+				<br>
+				<p>Township authorities in Mawlamyine opened a quarantine center at the university in the town, he said. All newly arrived migrants in Paung will now have to travel there and enter quarantine.</p>
+				<br>
+				<p>Mon State is home to 17,772 people who work abroad, according to the latest list issued by the state government; as of Sunday, 15,542 people were either in home quarantine or staying in community-based facilities opened at schools and other places. Some 2,230 people have been released from quarantine centers so far after two weeks of isolation.</p>
+				<br>
+				<p>“Those who came to stay at the camp on March 22 completed their two weeks, so we let them go home,” said Nai Kyi Win, minister for natural resources and environmental conservation in the Mon State government.</p>
+				<br>
+				<p>Migrant workers continue to return home to Mon State he said, adding that over 8,000 had arrived between April 1 and Monday.</p>
+				<br>
+				<p>The bulk of the migrants were returning from Thailand, but others were arriving from Malaysia, China, Singapore, South Korea, Japan, Cambodia and India, he said.</p>
+				<br>
+				<p>The Mon State government began collecting data on returning migrants on March 14. Initially, it ordered people to self-isolate at home. However, since March 22, all returning migrants have been required to stay at community-based quarantine camps on the orders of the Myanmar Health Ministry.</p>
+				<br>
+				<p>To accommodate them, authorities have set up quarantine centers at schools, universities, halls, rest houses, religious building and houses.</p>
+				<br>
+				<p>Some village administrators told the The Irrawaddy there had been cases in which migrants refused to stay at quarantine centers in Mudon and Thanbyuzayat townships.</p>
+				<br>
+				<p>Nai Hong Mann, the chairman of Sinepadaw Village in Mudon, said the township’s quarantine center was currently housing 136 migrants recently returned from Thailand, but 27 people had refused to stay there.</p>
+				<br>
+				<p>“I have informed the township authorities. Police told me to go and try and convince them one more time to come to the center. So, I will go to and talk to them again,” Nai Hong Mann said. “The police are worried there will be a riot if they go to arrest them. So they told me to go one more time.”</p>
+				<br>
+				<p>In an effort to avoid being quarantined, some returnees opted to stay outdoors on a rubber plantation rather than return to their village, but others were simply staying at home and ignoring the quarantine order from the government.</p>
+				<br>
+				<p>The Mon State government issued an order on March 28 informing all returning migrants that they would have to stay at community-based quarantine centers. The government would take action against those failing to comply, it said.</p>
+				<br>
+				<p>“We encouraged community, village and township authorities to build quarantine centers. Returning migrants have to stay in quarantine centers for 14 days. Our government will take action against those who do not present themselves to quarantine centers as required by law, as we announced in the statement,” said U Myint Than Win, a spokesperson for the Mon State government.</p>
+				<br>
+				<p>The state government will take action against migrants who fail to comply with quarantine orders under the Prevention and Control of Communicable Disease Law according to the statement.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>

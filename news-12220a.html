@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tik-koe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	<!-- animation file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+
+	<!-- bootstrap file -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+	<!-- fontawesome -->
+	<script src="https://kit.fontawesome.com/4c80498fbf.js" crossorigin="anonymous"></script>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+
+	<!-- custom -->
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<!-- header -->
+	<div id="header">
+		<div class="navi">
+			<div id="mySidepanel" class="sidepanel">
+				<div class="closebtn" onclick="closeNav()">
+					<div class="container">
+						<div class="close-btn">
+							<span>x</span>
+						</div>
+					</div>
+				</div>
+				<a href="index.html">Home</a>
+      			<a onclick="drop()" class="dbtn">News <span><i class="fas fa-angle-down"></i></span></a>
+      			<div class="d1" id="d1">
+        			<a class="dropdown-item" href="local.html">Local</a>
+        			<a class="dropdown-item" href="global.html">Global</a>
+        		</div>
+        		<a href="live-cases.html">Live Cases</a>
+			</div>
+
+			<div class="py-3">
+				<button class="openbtn d-block d-sm-none" onclick="openNav()">
+					<span>&#9776;</span>
+				</button> 
+			</div>
+
+			<div class="portrait-logo d-block d-sm-none">
+				<div class="portrait-logo-section">
+					<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+				</div>
+			</div>
+			
+			<div class="logo d-none d-sm-block">
+				<a href="index.html"><h1>Tik-koe<sup>19</sup></h1></a>
+			</div>
+			<ul  class="nav d-none d-sm-block">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="local.html">Local</a></li>
+				<li><a href="global.html" class="active">Global</a></li>
+        		<li><a href="live-cases.html">Live Cases</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- header end -->	
+
+	
+	<!-- news details -->
+	<div id="details" class="std-section">
+		<div class="news-details-section"> 
+			<div class="news-heading">
+				<h3>Virus cases top 200 in Japan as 40 more found infected on cruise ship</h3>
+			</div>
+			<div class="news-img">
+				<img src="img/news-img/news-12220a.png">
+			</div>
+			<div class="date-source-section row">
+				<div class="news-date col-6">12, 2, 2020</div>
+				<div class="news-source col-6">Source: <span><b>KYODO NEWSS</b></span></div>
+			</div>
+			<div class="news-details">
+				<p>The number of new coronavirus infections in Japan has topped 200 after another 40 people including a quarantine officer on a cruise ship docked at Yokohama near Tokyo tested positive, the health ministry said Wednesday.</p>
+				<br>
+				<p>Four men previously found infected and already taken to hospital from the quarantined Diamond Princess -- three Japanese and one foreign national in their 60s and 70s -- are in a severe condition. Two of the four are being treated in intensive care and the other two need help in breathing, the ministry said.</p>
+				<br>
+				<p>Of the 39 infected people aboard the Diamond Princess, 29 are passengers and 10 are crew members. The tally includes a teenager, making it the first time that a person in that age bracket has contracted the pneumonia-causing virus in Japan.</p>
+				<br>
+				<p>The male quarantine officer was taking the temperatures of passengers and collecting medical questionnaires from them between Feb. 3 and 4, according to the Ministry of Health, Labor and Welfare.</p>
+				<br>
+				<p>The officer, who was not wearing protective wear or goggles but was using a mask and gloves, disinfected his hands after seeing each passenger, the ministry said.</p>
+				<br>
+				<p>Of the 203 confirmed cases in Japan, 174 are passengers and crew on the Diamond Princess. The ship has been placed in quarantine since a man who disembarked in Hong Kong was found to have been infected with the virus in early February.</p>
+				<br>
+				<p>Japan is battling to contain the spread of the virus that originated in China's Wuhan, the capital of Hubei Province, blocking entry to foreigners from the region even if they do not show symptoms such as a fever and coughing. It has also turned away another cruise ship that had been headed for Japan.</p>
+				<br>
+				<p>Prime Minister Shinzo Abe said the government will extend its entry ban, effective Thursday, to foreign visitors who have been in Zhejiang Province in eastern China within two weeks prior to their arrival in Japan. Holders of Chinese passports issued by the province will be also barred from entry.</p>
+				<br>
+				<p>"It's imperative for us to take steps in a comprehensive and flexible manner to keep the virus away from our shores," Abe said at a meeting of a government task force at the prime minister's office.</p>
+				<br>
+				<p>Cabinet approval will no longer be necessary whenever the government wants to expand the scope of the entry ban to foreign arrivals from other regions in China where coronavirus infections are rampant, or to cruise ships carrying people suspected to have been infected, Abe said.</p>
+				<br>
+				<p>With more than 3,500 passengers and crew members scheduled to be confined on the Diamond Princess through Feb. 19, the cluster of cases aboard the ship has already posed challenges, from the need to conduct large numbers of virus tests to securing medicine for people with chronic diseases.</p>
+				<br>
+				<p>Abe said the government will increase the capacity of virus testing, currently at a maximum of 300 tests per day, to over 1,000 by Feb. 18 when the incubation period for the coronavirus ends for those aboard the ship.</p>
+				<br>
+				<p>Health minister Katsunobu Kato told parliament that the government aims to carry out virus tests on all remaining passengers and crew when they get off the cruise ship.</p>
+				<br>
+				<p>The viral epidemic has already taken its toll on Japan's tourism industry and cast a shadow over the business outlook in China. Panasonic Corp., Toshiba Corp. and Yamaha Corp. are among major Japanese firms operating in Zhejiang.</p>
+				<br>
+				<p>The Foreign Ministry has begun weighing the option of raising its travel advisory for Zhejiang by one notch to Level 3, or "avoid all travel," on a par with Hubei, according to government sources.</p>
+				<br>
+				<p>It issued a short-time travel alert on Wednesday to Japanese nationals currently in China, urging them to "urgently consider returning home" as traffic restrictions in place in the country could further expand.</p>
+				<br>
+				<p>Japan had lifted the advisory for China, excluding Hubei, to Level 2, warning its nationals to avoid "nonessential travel."</p>
+				<br>
+				<p>The new coronavirus has killed 1,113 people in mainland China and infected over 44,000, according to China's health authorities. Infections have spread to over 20 countries mainly in Asia, Europe and North America.</p>
+				<br>
+				<p>The head of the World Health Organization said Tuesday that it has named the coronavirus raging in China and elsewhere COVID-19, a word coined from an abbreviation of the virus name and the year of the first reported infection. The "d" stands for disease.</p>
+				<br>
+				<p>The 197 Japanese nationals who have been quarantined at government-arranged facilities near Tokyo since their return from Wuhan on a charter flight on Jan. 29 tested negative for the virus, the health ministry said Wednesday.</p>
+				<br>
+				<p>The results mean the evacuees can now go home. For the past two weeks, 176 have stayed at a hotel in Chiba Prefecture and 21 at a school facility in Saitama Prefecture.</p>
+				<br>
+				<p>Japan has brought back a total of 763 Japanese and their non-Japanese family members on four chartered planes since late last month. A fifth flight is now being arranged for this weekend at the earliest.</p>
+			</div>
+			<!-- <div class="news-video">
+				<video controls>
+					<source src="#" type="video/mp4">
+				</video>
+			</div> -->
+			
+		</div>
+	</div>
+	<!-- news details end -->
+
+
+
+								
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div id="footer">
+		<div class="footer-section">
+			<div class="links-section">
+				<div class="links row">
+					<p class="sub-link"><a href="terms.html">Terms</a></p>
+					<p class="sub-link"><a href="policy.html">Privacy Policy</a></p>
+					<p class="sub-link"><a href="about-us.html">About Us</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright-section">
+			<div class="copyright-box">
+				<p>Copyright<span>&copy;</span>2020 "Tik-koe" all right reserved.</p>
+			</div>
+		</div>
+	</div>
+	<!-- footer end -->
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidepanel").style.width = "40%";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidepanel").style.width = "0";
+		}
+	</script>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/okp.js"></script>
+	<script src="js/mapdata.js"></script>
+	<script src="js/countrymap.js"></script>
+	<script src="js/demo.js"></script>
+
+</body>
+</html>
